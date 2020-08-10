@@ -1,0 +1,9 @@
+objval : 106940225.9999999
+exactobjval : 0.106940226e9
+intviol : 9.999999999999999e-16
+consviol : 2.9953e-11
+objviol : 4.0388845e-08
+date : 2018-10-11
+submitter : "-"
+description : |
+  Solution found during MIPLIB2017 problem selection.

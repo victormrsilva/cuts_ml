@@ -1,0 +1,9 @@
+objval : 20946.48
+exactobjval : 0.2094648e5
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2018-11-01
+submitter : "Hans Mittelmann"
+description : |
+  Found using Gurobi with 32 threads

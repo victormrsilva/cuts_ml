@@ -1,0 +1,9 @@
+objval : 20889
+exactobjval : 0.20889e5
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-06-04
+submitter : "Ishibashi Yasumi"
+description : |
+  optimal solution as reported by ParaNUOPT after 32368 seconds using 9 cores in total

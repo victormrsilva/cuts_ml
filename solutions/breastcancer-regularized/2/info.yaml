@@ -1,0 +1,9 @@
+objval : 35.76784210526315
+exactobjval : NA
+intviol : 0
+consviol : 0
+objviol : 1.8e-15
+date : 2019-11-15
+submitter : "Hans Mittelmann"
+description : |
+  Computed with Gurobi, added because of low integrality violation

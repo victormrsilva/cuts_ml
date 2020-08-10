@@ -1,0 +1,9 @@
+objval : -847
+exactobjval : -0.847e3
+intviol : 0
+consviol : 9.999999999999999e-16
+objviol : 0
+date : 2018-10-12
+submitter : "-"
+description : |
+  Solution imported from MIPLIB2010.

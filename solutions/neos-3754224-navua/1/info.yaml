@@ -1,0 +1,9 @@
+objval : 2094267.600307604
+exactobjval : 
+intviol : 0
+consviol : 4.60647778526e-07
+objviol : 5.831693222808358e-09
+date : 2019-06-24
+submitter : "Andrea Tramontani"
+description : |
+  found with CPLEX 12.9.0 using 12 threads at the root node after 1 hour

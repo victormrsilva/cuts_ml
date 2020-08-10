@@ -1,0 +1,9 @@
+objval : 43
+exactobjval : NA
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-11-15
+submitter : "Ed Klotz"
+description : |
+  Found by the Optimization Direct Heuristic and CPLEX 12.9

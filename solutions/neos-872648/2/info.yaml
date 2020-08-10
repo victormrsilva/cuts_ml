@@ -1,0 +1,9 @@
+objval : 48.60790649939999
+exactobjval : NA
+intviol : 0
+consviol : 1.4e-16
+objviol : 0
+date : 2019-12-09
+submitter : "Hans Mittelmann"
+description : |
+  Optimal solution found with Gurobi 9.0 using up to 48 threads in 4000 sec.

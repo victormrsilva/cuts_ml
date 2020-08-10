@@ -1,0 +1,9 @@
+objval : 179965
+exactobjval : 0.179965e6
+intviol : 2e-14
+consviol : 2e-14
+objviol : 6.555431223447522e-13
+date : 2019-01-28
+submitter : "Yuji Shinano"
+description : |
+  Solved in 21 days with four restarted runs of ParaXpress.

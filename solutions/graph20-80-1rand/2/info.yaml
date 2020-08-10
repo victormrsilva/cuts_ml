@@ -1,0 +1,9 @@
+objval : -6
+exactobjval : NA
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-11-15
+submitter : "Hans Mittelmann"
+description : |
+  Computed with Gurobi 8.1.1 in 8289s using 40 threads

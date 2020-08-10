@@ -1,0 +1,9 @@
+objval : 9
+exactobjval : NA
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-12-18
+submitter : "Hans Mittelmann"
+description : |
+  found with Gurobi 8.1 using 24 threads after approx. 36 hours of running time

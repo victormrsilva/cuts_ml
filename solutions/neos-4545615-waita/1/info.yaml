@@ -1,0 +1,9 @@
+objval : 7624
+exactobjval : NA
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-11-20
+submitter : "Robert Ashford and Alkis Vazacopoulos"
+description : |
+  Found by the Optimization Direct Heuristic and CPLEX

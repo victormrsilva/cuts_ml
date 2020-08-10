@@ -1,0 +1,9 @@
+objval : 146.70099942
+exactobjval : NA
+intviol : 0
+consviol : 0
+objviol : 1e-14
+date : 2019-08-16
+submitter : "Ed Klotz"
+description : |
+  Solution was found in 10 hours and ~10000 nodes

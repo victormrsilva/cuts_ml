@@ -1,0 +1,9 @@
+objval : 2120
+exactobjval : 
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-02-27
+submitter : "Ed Klotz"
+description : |
+  Found using CPLEX with customized parameters

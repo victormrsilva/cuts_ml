@@ -1,0 +1,9 @@
+objval : 24.163194443
+exactobjval : 0.24163194443e2
+intviol : 0
+consviol : 9.999999999999999e-10
+objviol : 9.999999999999999e-10
+date : 2018-11-09
+submitter : "Rob Pratt"
+description : |
+  Obtained by transforming an optimal solution of the related instance tbfp_network

@@ -1,0 +1,9 @@
+objval : 73891245.38458699
+exactobjval : 
+intviol : 0
+consviol : 9.799181302e-07
+objviol : 1.1619264684965e-10
+date : 2020-02-05
+submitter : "Hans Mittelmann"
+description : |
+  Obtained with Gurobi 9.0 using 40 Threads within 17 hours

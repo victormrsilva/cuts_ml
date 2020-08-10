@@ -1,0 +1,9 @@
+objval : 0
+exactobjval : 0.e0
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2018-11-09
+submitter : "Yuji Shinano"
+description : |
+  Reported by ParaSCIP using 72 cores

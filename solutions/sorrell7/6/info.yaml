@@ -1,0 +1,9 @@
+objval : -196
+exactobjval : -0.196e3
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2020-05-17
+submitter : " Shunsuke Kamiya"
+description : |
+   Computed with weighting local search with exploiting variable associations (WLS) Shunji Umetani. "Exploiting variable associations to configure efficient local search algorithms in large-scale binary integer programs."  European Journal of Operational Research 263.1 (2017): 72-81.

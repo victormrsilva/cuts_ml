@@ -1,0 +1,9 @@
+objval : -34
+exactobjval : NA
+intviol : 0
+consviol : 9.999999999999999e-16
+objviol : 0
+date : 2019-09-26
+submitter : "Ed Klotz"
+description : |
+  Obtained with Optimization Direct Heuristic, which basically is an add on working with CPLEX directly through callbacks to generate additional heuristic solutions

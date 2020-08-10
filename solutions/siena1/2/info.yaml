@@ -1,0 +1,9 @@
+objval : 10478319.9
+exactobjval : NA
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-09-26
+submitter : "Ed Klotz"
+description : |
+  Obtained with ODH, by feeding a solution computed by CPLEX with implied integer detection disabled and running RINS every 200 nodes.

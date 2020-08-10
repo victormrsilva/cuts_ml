@@ -1,0 +1,9 @@
+objval : 3
+exactobjval : 0.3e1
+intviol : 3.9e-13
+consviol : 7.809999999999999e-13
+objviol : 0
+date : 2018-11-05
+submitter : "Yuji Shinano"
+description : |
+  Found with ParaSCIP using 72 cores

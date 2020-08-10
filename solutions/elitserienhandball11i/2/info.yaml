@@ -1,0 +1,9 @@
+objval : 3
+exactobjval : 0.10000000000000000159028911097599e101
+intviol : 1e-14
+consviol : 1e-14
+objviol : 0
+date : 2019-06-11
+submitter : "Yuji Shinano"
+description : |
+  Solved using FiberXpress

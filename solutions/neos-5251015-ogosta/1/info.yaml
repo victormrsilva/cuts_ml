@@ -1,0 +1,9 @@
+objval : 0.1058
+exactobjval : 0.1058e0
+intviol : 0
+consviol : 8.451893853853619e-10
+objviol : 0
+date : 2018-11-30
+submitter : "Yuji Shinano"
+description : |
+  Solved with ParaSCIP using 71 solvers (72 cores) in 525353 seconds (roughly 6 days).

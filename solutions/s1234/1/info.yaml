@@ -1,0 +1,9 @@
+objval : 29
+exactobjval : NA
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-11-15
+submitter : "Ed Klotz"
+description : |
+  Found using CPLEX 12.9

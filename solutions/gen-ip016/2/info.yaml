@@ -1,0 +1,9 @@
+objval : -9476.155196831998
+exactobjval : -0.9476155196832e4
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-02-27
+submitter : "Yuji Shinano"
+description : |
+  Found with ParaNUOPT(An experimental implementation) using 19 cores.

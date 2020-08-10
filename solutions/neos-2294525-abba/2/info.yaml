@@ -1,0 +1,9 @@
+objval : 321.152231903755
+exactobjval : 0.1561772506253e3
+intviol : 1.64812125796556e-11
+consviol : 1.601973862742524e-08
+objviol : 3.085196994279065e-14
+date : 2019-06-11
+submitter : "Yuji Shinano"
+description : |
+  Solved using FiberXpress (M620v3, 20 cores but 16 solver threads)

@@ -1,0 +1,9 @@
+objval : 72.30869057588275
+exactobjval : NA
+intviol : 0
+consviol : 9.53674316405e-07
+objviol : 2.28987076e-15
+date : 2019-12-18
+submitter : "Robert Ashford and Alkis Vazacopoulus"
+description : |
+  Found using ODH|CPlex

@@ -1,0 +1,9 @@
+objval : 150501
+exactobjval : 
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2020-01-21
+submitter : "Hans Mittelmmann"
+description : |
+  Solved with Gurobi 9.0 using 80 Threads within 62 hours

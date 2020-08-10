@@ -1,0 +1,9 @@
+objval : 8
+exactobjval : 0.10000000000000000159028911097599e101
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2020-01-22
+submitter : "Frederic Didier"
+description : |
+  Obtained by fixing part of the current solution and trying to solve them with a sub CP-SAT solver

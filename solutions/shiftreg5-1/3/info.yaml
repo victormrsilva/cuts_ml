@@ -1,0 +1,9 @@
+objval : 522.47114434429
+exactobjval : 
+intviol : 8.60382214974471e-07
+consviol : 8.615660067999999e-07
+objviol : 1.015900023675394e-13
+date : 2019-12-13
+submitter : "Edward Rothberg"
+description : |
+  Obtained with Gurobi 9.0

@@ -1,0 +1,9 @@
+objval : -350
+exactobjval : NA
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-12-18
+submitter : "Ed Rothberg"
+description : |
+  Optimal solution found with Gurobi 9.0 in 3489s on 8 cores

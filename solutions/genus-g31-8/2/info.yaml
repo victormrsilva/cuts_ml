@@ -1,0 +1,9 @@
+objval : -23
+exactobjval : NA
+intviol : 0
+consviol : 9.999999999999999e-16
+objviol : 0
+date : 2019-09-26
+submitter : "Ed Klotz"
+description : |
+  Computed within 90 Minutes, 12 Threads, primal simplex for node LPs, switching to solution polishing after absolute MIP gap is 6 or better

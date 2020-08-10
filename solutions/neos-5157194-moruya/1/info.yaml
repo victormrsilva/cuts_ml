@@ -1,0 +1,9 @@
+objval : 2520233187
+exactobjval : NA
+intviol : 5.107932649999999e-06
+consviol : 9e-08
+objviol : 0.011107775772
+date : 2018-11-30
+submitter : "Philipp Christophel"
+description : |
+  Found using SAS OR. Not feasible in strict sense.

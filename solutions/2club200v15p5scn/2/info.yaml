@@ -1,0 +1,9 @@
+objval : -70
+exactobjval : -0.7e2
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2018-11-30
+submitter : "Joshua Friedman"
+description : |
+  Found using Gurobi 8.1 on 24 cores after 23 hours.

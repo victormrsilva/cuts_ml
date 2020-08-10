@@ -1,0 +1,9 @@
+objval : 173904.8058335315
+exactobjval : 0.17390480610883502452681180777674e6
+intviol : 0
+consviol : 8.640022012351984e-07
+objviol : 4.888266242789999e-12
+date : 2020-05-15
+submitter : "Edward Rothberg"
+description : |
+  Determined using the Gurobi solution imrovement heuristic

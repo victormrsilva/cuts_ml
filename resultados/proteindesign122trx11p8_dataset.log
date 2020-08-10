@@ -1,0 +1,5 @@
+<class 'str'>
+error in cut CutType.LIFT_AND_PROJECT
+len dataset: 0
+test_ok: 0
+test_false: 0

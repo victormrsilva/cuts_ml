@@ -1,0 +1,9 @@
+objval : 247.91666363
+exactobjval : NA
+intviol : 0
+consviol : 0
+objviol : 2e-14
+date : 2019-08-21
+submitter : "Ed Klotz"
+description : |
+  Computed with 12 Threads in 12 hours, using the approach of giving highest priority to the variables with the most edges in the conflic graph.

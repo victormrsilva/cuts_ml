@@ -1,0 +1,9 @@
+objval : -58540
+exactobjval : -0.5854e5
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-02-27
+submitter : "Gregor Hendel"
+description : |
+  Found with CPLEX 12.8 using 8 threads in 14 hours and 22802 B&B nodes.

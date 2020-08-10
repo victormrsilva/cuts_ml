@@ -1,0 +1,9 @@
+objval : 399.373917847999
+exactobjval : 0.399373917848e3
+intviol : 0
+consviol : 3e-13
+objviol : 6e-13
+date : 2018-11-30
+submitter : "Gregor Hendel"
+description : |
+  Found using SCIP 6.0.

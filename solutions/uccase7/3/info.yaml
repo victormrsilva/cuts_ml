@@ -1,0 +1,9 @@
+objval : 26834.28427331005
+exactobjval : 
+intviol : 0
+consviol : 1.89e-13
+objviol : 5.459798305999999e-11
+date : 2020-02-21
+submitter : "Robert Bixby"
+description : |
+  Found with Gurobi 9.0.0

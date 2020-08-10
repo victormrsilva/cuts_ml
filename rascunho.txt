@@ -1,0 +1,8 @@
+### WARNING: CglRedSplit::generateCuts(): no optimal basis available.
+### WARNING: CglRedSplit2::generateCuts(): no optimal basis available.
+### WARNING: CglGMI::generateCuts(): no optimal basis available.
+('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+
+type CutType.GMI: 0.598050717267811 < 0.5980506544669835 - 6.280082753828964e-08
+type CutType.MIR: -0.9999999819373955 < -1.0 - 1.8062604523194636e-08

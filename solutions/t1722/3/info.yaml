@@ -1,0 +1,9 @@
+objval : 109473
+exactobjval : 
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2020-02-21
+submitter : "Kengo Nakamura"
+description : |
+  Computed with weighting local search with exploiting variable associations (WLS)

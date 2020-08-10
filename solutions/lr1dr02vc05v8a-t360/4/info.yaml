@@ -1,0 +1,9 @@
+objval : 123046.8149370308
+exactobjval : 0.12304681611861247351e6
+intviol : 1.34711010957e-06
+consviol : 3.33333339e-09
+objviol : 9.787667286737922e-12
+date : 2020-04-22
+submitter : "Edward Rothberg"
+description : |
+   Obtained with the Gurobi solution improvement heuristic

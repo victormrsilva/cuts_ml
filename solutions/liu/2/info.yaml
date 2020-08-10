@@ -1,0 +1,9 @@
+objval : 1090
+exactobjval : 0.109e4
+intviol : 0
+consviol : 0
+objviol : 0
+date : 2019-02-27
+submitter : "Ed Klotz"
+description : |
+  Found using a CPLEX 12.9 beta version after about 20 hours.
