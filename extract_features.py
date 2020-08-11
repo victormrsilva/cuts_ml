@@ -24,13 +24,28 @@ class ExtractFeatures:
 
         self.dataset = list()
         self.feat_names = features()
-        self.feat_names.append('cut_type')
-        self.feat_names.append('cut_type_found')
-        self.feat_names.append('iteration_found')
-        self.feat_names.append('cut_iteration')
-        self.feat_names.append('n_variables')
-        self.feat_names.append('label')
         self.instance_feat_values = compute_features(self.instance.model)
+        # features da relaxação
+        self.feat_names.append('relax_iteration')
+        self.feat_names.append('nonzeros')  # ###
+        self.feat_names.append('pct_nonzeros')  # ###
+        self.feat_names.append('unsatisfied_var')  # variavel inteira que ainda está como fract
+        self.feat_names.append('pct_unsatisfied_var')  # variavel inteira que ainda está como fract
+
+        # features do corte
+        self.feat_names.append('cut_type')
+        self.feat_names.append('n_variables_coef_nonzero')
+        self.feat_names.append('abs_minor_absolute_coef')  # ###
+        self.feat_names.append('minor_absolute_coef')  # ###
+        self.feat_names.append('abs_major_absolute_coef')  # ###
+        self.feat_names.append('major_absolute_coef')  # ###
+        self.feat_names.append('abs_ratio_minor_major_coef')  # ###
+        self.feat_names.append('abs_rhs')  # ###
+        self.feat_names.append('rhs')  # ###
+
+        # decision label
+        self.feat_names.append('label')
+
         self.test_ok = 0
         self.test_false = 0
 
@@ -45,9 +60,19 @@ class ExtractFeatures:
         qtd = 0
         total_iteration = 0
         cuts_iteration = 1
+        # temporizar as rodadas para ver se é necessário a limitação de cortes inseridos
         while cuts_iteration > 0:
             cuts_iteration = 0
             self.instance.model.optimize(relax=True)
+
+            # checar solução do corte
+            # se não for ótima há algum problema com algum corte
+            if self.instance.model.status != OptimizationStatus.OPTIMAL:
+                self.log.write('relaxação se tornou infeasible')
+                print('relaxação se tornou infeasible')
+                cuts_iteration = 0
+                continue
+
             # print('generated_cuts_per_iteration', generated_cuts_per_iteration)
             # add combinatory cuts first
             # print(combinatory)
@@ -136,7 +161,7 @@ class ExtractFeatures:
             # print(total, c.sense, (-1) * c.const)
             # input()
             if c.sense == '<':
-                if total - (-1) * c.const > 1e-8:
+                if total - (-1) * c.const > self.instance.model.infeas_tol:
                     print('checking constr', c)
                     # for key, value in c.expr.items():
                     #     print(key, value, sol[key.name])
@@ -145,7 +170,7 @@ class ExtractFeatures:
                     # input(0)
                     return 0
             elif c.sense == '>':
-                if total - (-1) * c.const < (0 - 1e-8):
+                if total - (-1) * c.const < (0 - self.instance.model.infeas_tol):
                     print('checking constr', c)
                     # for key, value in c.expr.items():
                     #     print(key, value, sol[key.name])

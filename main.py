@@ -10,9 +10,10 @@ print('instance name: ', file)
 instance = Instance(file)
 extractor = ExtractFeatures(instance)
 
-combinatorial_cuts = [CutType.CLIQUE, CutType.KNAPSACK_COVER, CutType.ODD_WHEEL]
-noncombinatorial_cuts = [CutType.GOMORY, CutType.LIFT_AND_PROJECT, CutType.MIR, CutType.FLOW_COVER, CutType.GMI, CutType.LATWO_MIR, CutType.PROBING, CutType.RED_SPLIT, CutType.RED_SPLIT_G, CutType.RESIDUAL_CAPACITY, CutType.TWO_MIR, CutType.ZERO_HALF]
-
+combinatorial_cuts = [CutType.CLIQUE, CutType.KNAPSACK_COVER, CutType.ODD_WHEEL, CutType.PROBING]
+noncombinatorial_cuts = [CutType.GOMORY, CutType.LIFT_AND_PROJECT, CutType.MIR, CutType.FLOW_COVER,
+                         CutType.GMI, CutType.LATWO_MIR, CutType.RED_SPLIT, CutType.ZERO_HALF,
+                         CutType.RED_SPLIT_G, CutType.RESIDUAL_CAPACITY, CutType.TWO_MIR]
 
 random.shuffle(combinatorial_cuts)
 random.shuffle(noncombinatorial_cuts)
