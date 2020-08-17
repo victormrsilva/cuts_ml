@@ -1,54 +1,43 @@
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-len dataset: 46
-test_ok: 46
+Combinatory set: [<CutType.KNAPSACK_COVER: 14>, <CutType.PROBING: 0>, <CutType.ODD_WHEEL: 13>]
+Non-Combinatory set: [<CutType.GMI: 2>, <CutType.FLOW_COVER: 5>, <CutType.MIR: 6>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.RED_SPLIT: 3>, <CutType.GOMORY: 1>, <CutType.RED_SPLIT_G: 4>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.ZERO_HALF: 11>, <CutType.TWO_MIR: 7>, <CutType.LATWO_MIR: 8>]
+iteration 0
+relaxation time 29.3817 seconds
+CutType.COMBINATORY: 0
+CutType.GMI: 200
+CutType.FLOW_COVER: 0
+CutType.MIR: 49
+CutType.RESIDUAL_CAPACITY: 142
+CutType.RED_SPLIT: 0
+CutType.GOMORY: 144
+CutType.RED_SPLIT_G: 0
+len dataset: 535
+test_ok: 535
 test_false: 0
-<class 'str'>
-len dataset: 0
-test_ok: 0
+Combinatory set: [<CutType.ODD_WHEEL: 13>, <CutType.CLIQUE: 12>]
+Non-Combinatory set: [<CutType.RED_SPLIT: 3>, <CutType.LATWO_MIR: 8>, <CutType.ZERO_HALF: 11>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.MIR: 6>, <CutType.TWO_MIR: 7>, <CutType.GOMORY: 1>, <CutType.RED_SPLIT_G: 4>, <CutType.GMI: 2>, <CutType.LIFT_AND_PROJECT: 9>]
+iteration 0
+relaxation time 55.4364 seconds
+CutType.COMBINATORY: 0
+CutType.RED_SPLIT: 3
+CutType.LATWO_MIR: 0
+CutType.ZERO_HALF: 0
+CutType.RESIDUAL_CAPACITY: 44
+CutType.MIR: 44
+CutType.TWO_MIR: 0
+CutType.GOMORY: 144
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+len dataset: 235
+test_ok: 235
+test_false: 0
+Combinatory set: [<CutType.PROBING: 0>, <CutType.CLIQUE: 12>, <CutType.KNAPSACK_COVER: 14>, <CutType.ODD_WHEEL: 13>]
+Non-Combinatory set: [<CutType.FLOW_COVER: 5>, <CutType.GMI: 2>, <CutType.ZERO_HALF: 11>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.RED_SPLIT: 3>, <CutType.RED_SPLIT_G: 4>, <CutType.GOMORY: 1>, <CutType.MIR: 6>]
+iteration 0
+relaxation time 54.9913 seconds
+CutType.COMBINATORY: 0
+CutType.FLOW_COVER: 0
+CutType.GMI: 200
+CutType.ZERO_HALF: 0
+len dataset: 200
+test_ok: 200
 test_false: 0

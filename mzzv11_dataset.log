@@ -1,0 +1,24 @@
+Combinatory set: [<CutType.ODD_WHEEL: 13>, <CutType.KNAPSACK_COVER: 14>]
+Non-Combinatory set: [<CutType.RED_SPLIT: 3>, <CutType.MIR: 6>, <CutType.GMI: 2>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.ZERO_HALF: 11>, <CutType.GOMORY: 1>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.LATWO_MIR: 8>]
+iteration 0
+relaxation time 2.5486 seconds
+CutType.COMBINATORY: 3
+CutType.RED_SPLIT: 0
+CutType.MIR: 1
+CutType.GMI: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+CutType.GOMORY: 105
+CutType.LIFT_AND_PROJECT: 308
+CutType.LATWO_MIR: 0
+iteration 1
+relaxation time 37.3834 seconds
+CutType.COMBINATORY: 0
+CutType.RED_SPLIT: 18
+CutType.MIR: 0
+CutType.GMI: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+CutType.GOMORY: 66
+CutType.LIFT_AND_PROJECT: 434
+CutType.LATWO_MIR: 0

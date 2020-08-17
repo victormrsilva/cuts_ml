@@ -1,0 +1,375 @@
+Combinatory set: [<CutType.KNAPSACK_COVER: 14>]
+Non-Combinatory set: [<CutType.MIR: 6>, <CutType.GMI: 2>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.RED_SPLIT_G: 4>]
+iteration 0
+relaxation time 174.9428 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 324
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 1
+relaxation time 105.9083 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 987
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 2
+relaxation time 158.2677 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 976
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 3
+relaxation time 560.8328 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 117
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 4
+relaxation time 218.869 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 1
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 5
+relaxation time 49.2071 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 3
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 6
+relaxation time 64.1495 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 2
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 7
+relaxation time 62.0579 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 3
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 8
+relaxation time 80.4906 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 1
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 9
+relaxation time 22.0338 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 3
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 10
+relaxation time 43.7977 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 19
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 11
+relaxation time 93.3357 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 1
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 12
+relaxation time 55.3079 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 2
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+iteration 13
+relaxation time 26.2602 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.GMI: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+len dataset: 2439
+test_ok: 2439
+test_false: 0
+Combinatory set: [<CutType.PROBING: 0>]
+Non-Combinatory set: [<CutType.ZERO_HALF: 11>, <CutType.LATWO_MIR: 8>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.RED_SPLIT: 3>]
+iteration 0
+relaxation time 362.6773 seconds
+CutType.COMBINATORY: 7
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+iteration 1
+relaxation time 116.3077 seconds
+CutType.COMBINATORY: 3
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+iteration 2
+relaxation time 59.0719 seconds
+CutType.COMBINATORY: 1
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+iteration 3
+relaxation time 86.6983 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 13
+iteration 4
+relaxation time 173.3777 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 10
+iteration 5
+relaxation time 189.5491 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 19
+iteration 6
+relaxation time 167.848 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 18
+iteration 7
+relaxation time 190.7474 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 14
+iteration 8
+relaxation time 114.7053 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 23
+iteration 9
+relaxation time 151.1805 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 19
+iteration 10
+relaxation time 141.762 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 10
+iteration 11
+relaxation time 135.3598 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 13
+iteration 12
+relaxation time 246.6379 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 17
+iteration 13
+relaxation time 179.3963 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 15
+iteration 14
+relaxation time 151.2133 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 17
+iteration 15
+relaxation time 165.0409 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 14
+iteration 16
+relaxation time 176.3769 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 16
+iteration 17
+relaxation time 184.4217 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 13
+iteration 18
+relaxation time 139.2919 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 13
+iteration 19
+relaxation time 140.2637 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 8
+iteration 20
+relaxation time 114.7784 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 8
+iteration 21
+relaxation time 176.1897 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 10
+iteration 22
+relaxation time 145.8113 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 11
+iteration 23
+relaxation time 51.6867 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 13
+iteration 24
+relaxation time 124.1532 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 3
+iteration 25
+relaxation time 151.9717 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 6
+iteration 26
+relaxation time 237.4126 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 16
+iteration 27
+relaxation time 164.9809 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 13
+iteration 28
+relaxation time 81.1676 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 15
+iteration 29
+relaxation time 87.0265 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 17
+iteration 30
+relaxation time 171.0688 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 10
+iteration 31
+relaxation time 161.5698 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 4
+iteration 32
+relaxation time 52.2829 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 9
+iteration 33
+relaxation time 105.4277 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 1
+iteration 34
+relaxation time 4.1656 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 2
+iteration 35
+relaxation time 95.4499 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 4
+iteration 36
+relaxation time 83.6381 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+len dataset: 394
+test_ok: 394
+test_false: 0
+Combinatory set: [<CutType.KNAPSACK_COVER: 14>, <CutType.PROBING: 0>, <CutType.CLIQUE: 12>, <CutType.ODD_WHEEL: 13>]
+Non-Combinatory set: [<CutType.LIFT_AND_PROJECT: 9>, <CutType.MIR: 6>, <CutType.FLOW_COVER: 5>, <CutType.TWO_MIR: 7>, <CutType.RED_SPLIT_G: 4>, <CutType.LATWO_MIR: 8>, <CutType.GOMORY: 1>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.ZERO_HALF: 11>, <CutType.RED_SPLIT: 3>]
+iteration 0
+relaxation time 365.196 seconds
+CutType.COMBINATORY: 7
+len dataset: 0
+test_ok: 0
+test_false: 0

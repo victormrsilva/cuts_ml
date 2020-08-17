@@ -14,11 +14,10 @@ class Instance:
                 shutil.copyfileobj(f_in, f_out)
 
         self.model = Model(solver_name='cbc')
-        self.model.verbose = 0
         self.model.seed = datetime.now()  # random seed
 
         self.model.read('{}.mps'.format(self.name))
-        self.x = self.model.vars
+        self.model.verbose = 0
 
         self.solutions_file = []
         self.solutions = []

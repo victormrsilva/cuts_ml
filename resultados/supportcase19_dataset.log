@@ -1,0 +1,12 @@
+Combinatory set: [<CutType.KNAPSACK_COVER: 14>, <CutType.CLIQUE: 12>, <CutType.PROBING: 0>, <CutType.ODD_WHEEL: 13>]
+Non-Combinatory set: [<CutType.LATWO_MIR: 8>, <CutType.GOMORY: 1>, <CutType.MIR: 6>, <CutType.GMI: 2>, <CutType.RED_SPLIT: 3>, <CutType.ZERO_HALF: 11>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.RESIDUAL_CAPACITY: 10>]
+iteration 0
+len dataset: 0
+test_ok: 0
+test_false: 0
+Combinatory set: [<CutType.KNAPSACK_COVER: 14>, <CutType.PROBING: 0>, <CutType.ODD_WHEEL: 13>, <CutType.CLIQUE: 12>]
+Non-Combinatory set: [<CutType.FLOW_COVER: 5>, <CutType.MIR: 6>, <CutType.LATWO_MIR: 8>, <CutType.RED_SPLIT_G: 4>, <CutType.RED_SPLIT: 3>]
+iteration 0
+len dataset: 0
+test_ok: 0
+test_false: 0

@@ -1,177 +1,410 @@
-<class 'str'>
-len dataset: 0
-test_ok: 0
+Combinatory set: [<CutType.CLIQUE: 12>, <CutType.ODD_WHEEL: 13>, <CutType.KNAPSACK_COVER: 14>, <CutType.PROBING: 0>]
+Non-Combinatory set: [<CutType.LATWO_MIR: 8>, <CutType.GMI: 2>, <CutType.MIR: 6>, <CutType.TWO_MIR: 7>, <CutType.ZERO_HALF: 11>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.RED_SPLIT_G: 4>, <CutType.RED_SPLIT: 3>]
+iteration 0
+relaxation time 23.7677 seconds
+CutType.COMBINATORY: 0
+CutType.LATWO_MIR: 0
+CutType.GMI: 202
+CutType.MIR: 159
+CutType.TWO_MIR: 0
+CutType.ZERO_HALF: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 473
+CutType.RED_SPLIT_G: 0
+CutType.RED_SPLIT: 0
+iteration 1
+relaxation time 472.2353 seconds
+CutType.COMBINATORY: 0
+CutType.LATWO_MIR: 0
+CutType.GMI: 72
+CutType.MIR: 415
+CutType.TWO_MIR: 0
+CutType.ZERO_HALF: 0
+CutType.RESIDUAL_CAPACITY: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.RED_SPLIT_G: 0
+CutType.RED_SPLIT: 0
+iteration 2
+relaxation time 401.5586 seconds
+CutType.COMBINATORY: 0
+CutType.LATWO_MIR: 0
+CutType.GMI: 152
+CutType.MIR: 390
+CutType.TWO_MIR: 0
+CutType.ZERO_HALF: 0
+CutType.RESIDUAL_CAPACITY: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.RED_SPLIT_G: 0
+CutType.RED_SPLIT: 0
+iteration 3
+relaxation time 308.4479 seconds
+CutType.COMBINATORY: 0
+CutType.LATWO_MIR: 0
+CutType.GMI: 39
+CutType.MIR: 575
+CutType.TWO_MIR: 0
+CutType.ZERO_HALF: 0
+CutType.RESIDUAL_CAPACITY: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.RED_SPLIT_G: 0
+CutType.RED_SPLIT: 0
+iteration 4
+relaxation time 293.4908 seconds
+CutType.COMBINATORY: 0
+CutType.LATWO_MIR: 0
+CutType.GMI: 90
+CutType.MIR: 418
+CutType.TWO_MIR: 0
+CutType.ZERO_HALF: 0
+CutType.RESIDUAL_CAPACITY: 0
+len dataset: 2985
+test_ok: 2985
 test_false: 0
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-<class 'str'>
-len dataset: 169
-test_ok: 169
+Combinatory set: []
+Non-Combinatory set: [<CutType.RED_SPLIT_G: 4>, <CutType.ZERO_HALF: 11>]
+iteration 0
+relaxation time 47.4097 seconds
+CutType.COMBINATORY: 255
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+Combinatory set: []
+Non-Combinatory set: [<CutType.TWO_MIR: 7>, <CutType.MIR: 6>, <CutType.GMI: 2>, <CutType.RED_SPLIT_G: 4>, <CutType.GOMORY: 1>, <CutType.ZERO_HALF: 11>]
+iteration 0
+relaxation time 49.0483 seconds
+CutType.COMBINATORY: 255
+CutType.TWO_MIR: 0
+CutType.MIR: 209
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 96
+CutType.ZERO_HALF: 0
+iteration 1
+relaxation time 126.9388 seconds
+CutType.COMBINATORY: 306
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 1
+relaxation time 160.1786 seconds
+CutType.COMBINATORY: 307
+CutType.TWO_MIR: 0
+CutType.MIR: 414
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 1
+CutType.ZERO_HALF: 0
+iteration 2
+relaxation time 243.819 seconds
+CutType.COMBINATORY: 290
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 2
+relaxation time 310.0719 seconds
+CutType.COMBINATORY: 358
+CutType.TWO_MIR: 0
+CutType.MIR: 544
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 8
+CutType.ZERO_HALF: 0
+iteration 3
+relaxation time 279.1109 seconds
+CutType.COMBINATORY: 289
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 3
+relaxation time 365.9062 seconds
+CutType.COMBINATORY: 396
+CutType.TWO_MIR: 0
+CutType.MIR: 620
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 4
+relaxation time 362.0821 seconds
+CutType.COMBINATORY: 302
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 5
+relaxation time 242.0348 seconds
+CutType.COMBINATORY: 244
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 6
+relaxation time 281.4966 seconds
+CutType.COMBINATORY: 360
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 4
+relaxation time 996.8869 seconds
+CutType.COMBINATORY: 504
+CutType.TWO_MIR: 0
+CutType.MIR: 841
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 7
+relaxation time 302.1716 seconds
+CutType.COMBINATORY: 255
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 8
+relaxation time 350.6885 seconds
+CutType.COMBINATORY: 244
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 5
+relaxation time 642.7944 seconds
+CutType.COMBINATORY: 292
+CutType.TWO_MIR: 0
+CutType.MIR: 496
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 9
+relaxation time 366.1261 seconds
+CutType.COMBINATORY: 350
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 10
+relaxation time 226.9328 seconds
+CutType.COMBINATORY: 183
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 6
+relaxation time 548.3142 seconds
+CutType.COMBINATORY: 237
+CutType.TWO_MIR: 0
+CutType.MIR: 312
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 11
+relaxation time 212.2064 seconds
+CutType.COMBINATORY: 112
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 12
+relaxation time 115.3096 seconds
+CutType.COMBINATORY: 160
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 13
+relaxation time 131.8203 seconds
+CutType.COMBINATORY: 61
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 7
+relaxation time 476.6809 seconds
+CutType.COMBINATORY: 274
+CutType.TWO_MIR: 0
+CutType.MIR: 446
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 14
+relaxation time 178.8531 seconds
+CutType.COMBINATORY: 69
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 15
+relaxation time 292.8003 seconds
+CutType.COMBINATORY: 54
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 16
+relaxation time 118.9386 seconds
+CutType.COMBINATORY: 188
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 8
+relaxation time 709.4757 seconds
+CutType.COMBINATORY: 327
+CutType.TWO_MIR: 0
+CutType.MIR: 518
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 17
+relaxation time 240.2113 seconds
+CutType.COMBINATORY: 27
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 18
+relaxation time 110.1326 seconds
+CutType.COMBINATORY: 72
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 19
+relaxation time 192.9233 seconds
+CutType.COMBINATORY: 58
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 20
+relaxation time 93.0846 seconds
+CutType.COMBINATORY: 12
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 21
+relaxation time 82.3121 seconds
+CutType.COMBINATORY: 12
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 22
+relaxation time 37.9568 seconds
+CutType.COMBINATORY: 258
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 23
+relaxation time 119.1953 seconds
+CutType.COMBINATORY: 61
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 24
+relaxation time 18.5646 seconds
+CutType.COMBINATORY: 9
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 25
+relaxation time 64.4939 seconds
+CutType.COMBINATORY: 4
+CutType.RED_SPLIT_G: 0
+CutType.ZERO_HALF: 0
+iteration 9
+relaxation time 989.6483 seconds
+CutType.COMBINATORY: 145
+CutType.TWO_MIR: 0
+CutType.MIR: 204
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 10
+relaxation time 450.9323 seconds
+CutType.COMBINATORY: 95
+CutType.TWO_MIR: 0
+CutType.MIR: 144
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 11
+relaxation time 411.5086 seconds
+CutType.COMBINATORY: 230
+CutType.TWO_MIR: 0
+CutType.MIR: 343
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 12
+relaxation time 412.3437 seconds
+CutType.COMBINATORY: 62
+CutType.TWO_MIR: 0
+CutType.MIR: 91
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 13
+relaxation time 359.0086 seconds
+CutType.COMBINATORY: 51
+CutType.TWO_MIR: 0
+CutType.MIR: 74
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 14
+relaxation time 233.4418 seconds
+CutType.COMBINATORY: 51
+CutType.TWO_MIR: 0
+CutType.MIR: 64
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 15
+relaxation time 187.7793 seconds
+CutType.COMBINATORY: 42
+CutType.TWO_MIR: 0
+CutType.MIR: 54
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 16
+relaxation time 224.3043 seconds
+CutType.COMBINATORY: 60
+CutType.TWO_MIR: 0
+CutType.MIR: 83
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 17
+relaxation time 251.8604 seconds
+CutType.COMBINATORY: 92
+CutType.TWO_MIR: 0
+CutType.MIR: 114
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 18
+relaxation time 623.6307 seconds
+CutType.COMBINATORY: 47
+CutType.TWO_MIR: 0
+CutType.MIR: 60
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 2
+CutType.ZERO_HALF: 0
+iteration 19
+relaxation time 225.6421 seconds
+CutType.COMBINATORY: 58
+CutType.TWO_MIR: 0
+CutType.MIR: 75
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 5
+CutType.ZERO_HALF: 0
+iteration 20
+relaxation time 306.3748 seconds
+CutType.COMBINATORY: 478
+CutType.TWO_MIR: 0
+CutType.MIR: 797
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 21
+relaxation time 226.5872 seconds
+CutType.COMBINATORY: 523
+CutType.TWO_MIR: 0
+CutType.MIR: 901
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 22
+relaxation time 130.6835 seconds
+CutType.COMBINATORY: 97
+CutType.TWO_MIR: 0
+CutType.MIR: 106
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+iteration 23
+len dataset: 7622
+test_ok: 7622
 test_false: 0

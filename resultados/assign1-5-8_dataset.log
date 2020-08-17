@@ -1,0 +1,2040 @@
+Combinatory set: [<CutType.PROBING: 0>]
+Non-Combinatory set: [<CutType.LIFT_AND_PROJECT: 9>, <CutType.FLOW_COVER: 5>, <CutType.MIR: 6>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.RED_SPLIT_G: 4>, <CutType.LATWO_MIR: 8>]
+iteration 0
+relaxation time 0.0271 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 26
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 1
+relaxation time 0.0974 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.FLOW_COVER: 0
+CutType.MIR: 30
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 2
+relaxation time 0.2615 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.FLOW_COVER: 0
+CutType.MIR: 18
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 3
+relaxation time 0.3675 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 109
+CutType.FLOW_COVER: 0
+CutType.MIR: 6
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 4
+relaxation time 0.3876 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 12
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 5
+relaxation time 0.5071 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 103
+CutType.FLOW_COVER: 0
+CutType.MIR: 10
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 6
+relaxation time 0.5705 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 109
+CutType.FLOW_COVER: 0
+CutType.MIR: 3
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 7
+relaxation time 0.6939 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.FLOW_COVER: 0
+CutType.MIR: 6
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 8
+relaxation time 0.5962 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 106
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 9
+relaxation time 0.7731 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 10
+relaxation time 0.7808 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.FLOW_COVER: 0
+CutType.MIR: 2
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 11
+relaxation time 0.8539 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 12
+relaxation time 0.9663 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 13
+relaxation time 1.1729 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 14
+relaxation time 0.9181 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 15
+relaxation time 1.1692 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.FLOW_COVER: 0
+CutType.MIR: 1
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 16
+relaxation time 1.4964 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 17
+relaxation time 1.2855 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 18
+relaxation time 1.2257 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 117
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 19
+relaxation time 1.2705 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 20
+relaxation time 1.4664 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 21
+relaxation time 1.5347 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 22
+relaxation time 1.5318 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 23
+relaxation time 1.7818 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 24
+relaxation time 1.5573 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 25
+relaxation time 1.8806 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 26
+relaxation time 1.7179 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 117
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 27
+relaxation time 1.729 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 28
+relaxation time 2.1798 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 29
+relaxation time 2.2255 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 30
+relaxation time 2.4739 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 117
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 31
+relaxation time 2.1753 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 32
+relaxation time 2.5294 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 33
+relaxation time 2.3781 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 34
+relaxation time 2.1796 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 35
+relaxation time 3.0046 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 36
+relaxation time 3.1712 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 37
+relaxation time 3.6425 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 38
+relaxation time 2.7702 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 39
+relaxation time 2.9393 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 40
+relaxation time 3.7055 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 41
+relaxation time 3.4649 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 42
+relaxation time 3.5234 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 43
+relaxation time 3.711 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 118
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 44
+relaxation time 3.6118 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 45
+relaxation time 7.0314 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 46
+relaxation time 4.0745 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 47
+relaxation time 3.9366 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 48
+relaxation time 4.3353 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 49
+relaxation time 3.4226 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 118
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 50
+relaxation time 4.0054 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 51
+relaxation time 5.0418 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 52
+relaxation time 4.2873 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 53
+relaxation time 4.2898 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 54
+relaxation time 4.1161 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 55
+relaxation time 11.6646 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 56
+relaxation time 9.0615 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 57
+relaxation time 5.5137 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 118
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 58
+relaxation time 5.6453 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 59
+relaxation time 7.0647 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 60
+relaxation time 6.6991 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 61
+relaxation time 6.3069 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 62
+relaxation time 5.5877 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 63
+relaxation time 6.6236 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 107
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 64
+relaxation time 5.146 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 117
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 65
+relaxation time 6.511 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 66
+relaxation time 13.0082 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 67
+relaxation time 6.918 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 68
+relaxation time 5.6998 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 69
+relaxation time 6.1456 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 70
+relaxation time 17.4049 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 71
+relaxation time 6.8733 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 72
+relaxation time 10.3157 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 73
+relaxation time 9.962 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 74
+relaxation time 19.0612 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 75
+relaxation time 6.8589 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 76
+relaxation time 6.8038 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 77
+relaxation time 16.5569 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 78
+relaxation time 6.575 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 79
+relaxation time 20.4526 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 80
+relaxation time 7.1787 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 109
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 81
+relaxation time 5.9373 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 109
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 82
+relaxation time 7.1164 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 83
+relaxation time 7.5404 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 84
+relaxation time 23.0215 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 85
+relaxation time 8.1253 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 86
+relaxation time 8.4997 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 87
+relaxation time 6.7574 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 2
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 88
+relaxation time 8.0231 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 105
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 89
+relaxation time 8.4539 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 108
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 90
+relaxation time 9.8082 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 91
+relaxation time 6.3029 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 92
+relaxation time 9.2083 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 93
+relaxation time 12.3424 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 109
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 94
+relaxation time 23.0282 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 95
+relaxation time 8.9439 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 96
+relaxation time 22.1323 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 109
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 97
+relaxation time 21.2582 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 98
+relaxation time 7.8122 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 118
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 99
+relaxation time 21.4263 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 100
+relaxation time 7.6467 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 101
+relaxation time 7.9354 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 117
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 102
+relaxation time 7.535 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 103
+relaxation time 8.8634 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 104
+relaxation time 8.2605 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 118
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 105
+relaxation time 12.039 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 106
+relaxation time 8.3396 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 107
+relaxation time 10.7655 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 108
+relaxation time 8.3028 seconds
+CutType.COMBINATORY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.FLOW_COVER: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT_G: 0
+CutType.LATWO_MIR: 0
+iteration 109
+relaxation time 41.0405 seconds
+CutType.COMBINATORY: 0
+len dataset: 12431
+test_ok: 12431
+test_false: 0
+Combinatory set: [<CutType.ODD_WHEEL: 13>]
+Non-Combinatory set: [<CutType.MIR: 6>, <CutType.TWO_MIR: 7>, <CutType.GOMORY: 1>, <CutType.ZERO_HALF: 11>, <CutType.RED_SPLIT_G: 4>, <CutType.LIFT_AND_PROJECT: 9>]
+iteration 0
+relaxation time 0.0517 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 111
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 114
+iteration 1
+relaxation time 0.1852 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 108
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 109
+iteration 2
+relaxation time 0.3378 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 105
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 111
+iteration 3
+relaxation time 0.7144 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 100
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 104
+iteration 4
+relaxation time 0.7622 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 102
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 108
+iteration 5
+relaxation time 1.002 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 100
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 106
+iteration 6
+relaxation time 1.2931 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 102
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 108
+iteration 7
+relaxation time 1.6028 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 99
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 106
+iteration 8
+relaxation time 1.5505 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 104
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 108
+iteration 9
+relaxation time 1.8862 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 97
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 108
+iteration 10
+relaxation time 2.1951 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 101
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 108
+iteration 11
+relaxation time 2.0592 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 98
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 111
+iteration 12
+relaxation time 2.1174 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 102
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 112
+iteration 13
+relaxation time 2.7264 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 96
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 114
+iteration 14
+relaxation time 3.1211 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 102
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 110
+iteration 15
+relaxation time 3.3153 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 98
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 113
+iteration 16
+relaxation time 2.9732 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 103
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 110
+iteration 17
+relaxation time 3.2652 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 106
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 117
+iteration 18
+relaxation time 3.782 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 95
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 112
+iteration 19
+relaxation time 4.1863 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 80
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 118
+iteration 20
+relaxation time 4.6261 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 94
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 108
+iteration 21
+relaxation time 4.6907 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 95
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 107
+iteration 22
+relaxation time 4.9737 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 98
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 109
+iteration 23
+relaxation time 4.703 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 91
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 114
+iteration 24
+relaxation time 5.0971 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 92
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 113
+iteration 25
+relaxation time 6.6874 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 1
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 113
+iteration 26
+relaxation time 5.8602 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 81
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 114
+iteration 27
+relaxation time 5.7023 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 614
+CutType.LIFT_AND_PROJECT: 113
+iteration 28
+relaxation time 6.7176 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 5
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 116
+iteration 29
+relaxation time 6.4139 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 627
+CutType.LIFT_AND_PROJECT: 111
+iteration 30
+relaxation time 7.3007 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 72
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 116
+iteration 31
+relaxation time 6.8965 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 68
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 114
+iteration 32
+relaxation time 7.201 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 570
+CutType.LIFT_AND_PROJECT: 109
+iteration 33
+relaxation time 9.6352 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 595
+CutType.LIFT_AND_PROJECT: 113
+iteration 34
+relaxation time 10.1535 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 590
+CutType.LIFT_AND_PROJECT: 115
+iteration 35
+relaxation time 9.8985 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 1
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 112
+Combinatory set: [<CutType.ODD_WHEEL: 13>, <CutType.PROBING: 0>, <CutType.KNAPSACK_COVER: 14>, <CutType.CLIQUE: 12>]
+Non-Combinatory set: [<CutType.GOMORY: 1>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.TWO_MIR: 7>, <CutType.FLOW_COVER: 5>]
+iteration 0
+relaxation time 0.0467 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 111
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 1
+relaxation time 0.2051 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 108
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 109
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 2
+relaxation time 0.3644 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 105
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 3
+relaxation time 0.7004 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 100
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 104
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 4
+relaxation time 0.6635 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 102
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 108
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 5
+relaxation time 0.9421 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 100
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 106
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 6
+relaxation time 1.3817 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 102
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 108
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 7
+relaxation time 1.6146 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 99
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 106
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 36
+relaxation time 10.0986 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 673
+CutType.LIFT_AND_PROJECT: 108
+iteration 8
+relaxation time 1.5082 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 104
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 108
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 9
+relaxation time 1.9413 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 97
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 108
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 10
+relaxation time 2.2814 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 101
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 108
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 11
+relaxation time 2.0997 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 98
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 37
+relaxation time 11.5255 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 663
+CutType.LIFT_AND_PROJECT: 116
+iteration 12
+relaxation time 2.189 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 102
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 13
+relaxation time 2.8883 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 96
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 14
+relaxation time 3.2289 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 102
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 15
+relaxation time 3.5281 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 98
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 38
+relaxation time 12.9906 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 1
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 109
+iteration 16
+relaxation time 3.0281 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 103
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 17
+relaxation time 3.337 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 106
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 117
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 18
+relaxation time 3.9924 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 95
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 39
+relaxation time 13.7608 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 611
+CutType.LIFT_AND_PROJECT: 114
+iteration 19
+relaxation time 4.7802 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 80
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 118
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 20
+relaxation time 4.2766 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 94
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 108
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 21
+relaxation time 4.6931 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 95
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 107
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 40
+relaxation time 15.417 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 20
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 114
+iteration 22
+relaxation time 4.7742 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 98
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 109
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 23
+relaxation time 4.7923 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 91
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 41
+relaxation time 13.1606 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 52
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 113
+iteration 24
+relaxation time 5.0201 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 92
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 25
+relaxation time 6.4353 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 1
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 26
+relaxation time 6.141 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 81
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 42
+relaxation time 14.5607 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 15
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 110
+iteration 27
+relaxation time 5.8964 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 28
+relaxation time 6.0787 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 4
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 43
+relaxation time 11.1535 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 632
+CutType.LIFT_AND_PROJECT: 114
+iteration 29
+relaxation time 5.694 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 25
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 30
+relaxation time 6.4421 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 45
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 44
+relaxation time 17.9939 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 19
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 112
+iteration 31
+relaxation time 5.8419 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 32
+relaxation time 7.2249 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 45
+relaxation time 14.154 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 47
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 115
+iteration 33
+relaxation time 8.4404 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 7
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 34
+relaxation time 6.818 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 46
+relaxation time 15.8637 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 613
+CutType.LIFT_AND_PROJECT: 109
+iteration 35
+relaxation time 7.8993 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 117
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 36
+relaxation time 6.7849 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 47
+relaxation time 16.6215 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 549
+CutType.LIFT_AND_PROJECT: 109
+iteration 37
+relaxation time 7.5008 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 38
+relaxation time 6.9229 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 48
+relaxation time 15.1669 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 620
+CutType.LIFT_AND_PROJECT: 111
+iteration 39
+relaxation time 7.3112 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 40
+relaxation time 8.6499 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 49
+relaxation time 18.4361 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 5
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 113
+iteration 41
+relaxation time 8.1981 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 42
+relaxation time 9.0457 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 43
+relaxation time 8.9447 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 2
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 50
+relaxation time 22.3448 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 2
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 114
+iteration 44
+relaxation time 7.8707 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 106
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 45
+relaxation time 8.9204 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 51
+relaxation time 19.0162 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 0
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 685
+CutType.LIFT_AND_PROJECT: 117
+iteration 46
+relaxation time 7.1587 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 52
+relaxation time 22.2196 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.TWO_MIR: 0
+CutType.GOMORY: 2
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+len dataset: 16714
+test_ok: 16714
+test_false: 0
+iteration 47
+relaxation time 9.6506 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 109
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 48
+relaxation time 7.8961 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 49
+relaxation time 7.2406 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 50
+relaxation time 7.9071 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 51
+relaxation time 7.0707 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 52
+relaxation time 7.3437 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 53
+relaxation time 6.6381 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 54
+relaxation time 6.5066 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 55
+relaxation time 6.9025 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 56
+relaxation time 8.328 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 107
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 57
+relaxation time 8.3383 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 58
+relaxation time 8.4265 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 114
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 59
+relaxation time 6.9656 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 60
+relaxation time 7.4745 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 61
+relaxation time 6.406 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 112
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 62
+relaxation time 7.4499 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 63
+relaxation time 7.4313 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 111
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 64
+relaxation time 5.705 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 115
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 65
+relaxation time 8.0829 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 109
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 66
+relaxation time 8.012 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 116
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 67
+relaxation time 6.8045 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 110
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 68
+relaxation time 25.5436 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 69
+relaxation time 7.8818 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.LIFT_AND_PROJECT: 113
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+iteration 70
+relaxation time 7.4836 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+len dataset: 10471
+test_ok: 10471
+test_false: 0

@@ -1,0 +1,175 @@
+Combinatory set: []
+Non-Combinatory set: [<CutType.RESIDUAL_CAPACITY: 10>, <CutType.GOMORY: 1>, <CutType.LATWO_MIR: 8>, <CutType.MIR: 6>, <CutType.RED_SPLIT_G: 4>, <CutType.TWO_MIR: 7>, <CutType.ZERO_HALF: 11>, <CutType.LIFT_AND_PROJECT: 9>]
+iteration 0
+relaxation time 3.3077 seconds
+CutType.COMBINATORY: 86
+CutType.RESIDUAL_CAPACITY: 26
+CutType.GOMORY: 28
+CutType.LATWO_MIR: 0
+CutType.MIR: 33
+CutType.RED_SPLIT_G: 0
+CutType.TWO_MIR: 0
+CutType.ZERO_HALF: 0
+CutType.LIFT_AND_PROJECT: 66
+iteration 1
+relaxation time 61.5165 seconds
+CutType.COMBINATORY: 211
+CutType.RESIDUAL_CAPACITY: 107
+CutType.GOMORY: 41
+CutType.LATWO_MIR: 0
+CutType.MIR: 90
+CutType.RED_SPLIT_G: 0
+CutType.TWO_MIR: 0
+CutType.ZERO_HALF: 0
+len dataset: 391
+test_ok: 391
+test_false: 0
+Combinatory set: []
+Non-Combinatory set: [<CutType.MIR: 6>, <CutType.TWO_MIR: 7>, <CutType.FLOW_COVER: 5>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.GMI: 2>, <CutType.GOMORY: 1>, <CutType.ZERO_HALF: 11>, <CutType.RED_SPLIT_G: 4>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.LATWO_MIR: 8>]
+iteration 0
+relaxation time 6.4849 seconds
+CutType.COMBINATORY: 86
+CutType.MIR: 33
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+CutType.RESIDUAL_CAPACITY: 26
+CutType.GMI: 0
+CutType.GOMORY: 28
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+CutType.LIFT_AND_PROJECT: 66
+CutType.LATWO_MIR: 0
+Combinatory set: [<CutType.ODD_WHEEL: 13>]
+Non-Combinatory set: [<CutType.ZERO_HALF: 11>, <CutType.GMI: 2>]
+iteration 0
+relaxation time 6.2951 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 88
+iteration 1
+relaxation time 63.6658 seconds
+CutType.COMBINATORY: 2
+CutType.ZERO_HALF: 0
+CutType.GMI: 0
+iteration 2
+relaxation time 5.0434 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 218
+iteration 3
+relaxation time 44.7511 seconds
+CutType.COMBINATORY: 1
+CutType.ZERO_HALF: 0
+CutType.GMI: 0
+iteration 4
+relaxation time 3.1947 seconds
+CutType.COMBINATORY: 1
+CutType.ZERO_HALF: 0
+CutType.GMI: 0
+iteration 5
+relaxation time 6.1104 seconds
+CutType.COMBINATORY: 1
+CutType.ZERO_HALF: 0
+CutType.GMI: 0
+iteration 6
+relaxation time 6.8066 seconds
+CutType.COMBINATORY: 1
+CutType.ZERO_HALF: 0
+CutType.GMI: 0
+iteration 7
+relaxation time 1.0889 seconds
+CutType.COMBINATORY: 1
+CutType.ZERO_HALF: 0
+CutType.GMI: 0
+iteration 8
+relaxation time 1.7684 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 465
+iteration 9
+relaxation time 73.1106 seconds
+CutType.COMBINATORY: 1
+CutType.ZERO_HALF: 0
+CutType.GMI: 0
+iteration 10
+relaxation time 5.1783 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 271
+iteration 11
+relaxation time 114.6265 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 193
+iteration 12
+relaxation time 56.2319 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 349
+iteration 13
+relaxation time 129.0764 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 25
+iteration 14
+relaxation time 38.208 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 53
+iteration 15
+relaxation time 73.8222 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 116
+iteration 16
+relaxation time 43.721 seconds
+CutType.COMBINATORY: 1
+CutType.ZERO_HALF: 0
+CutType.GMI: 0
+iteration 17
+relaxation time 15.4046 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 34
+iteration 18
+relaxation time 31.857 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 35
+iteration 19
+relaxation time 44.0758 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 38
+iteration 20
+relaxation time 26.5376 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 69
+iteration 21
+relaxation time 21.9113 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 2
+iteration 22
+relaxation time 20.1708 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+CutType.GMI: 0
+len dataset: 1956
+test_ok: 1956
+test_false: 0
+iteration 1
+relaxation time 86.2148 seconds
+CutType.COMBINATORY: 197
+CutType.MIR: 104
+CutType.TWO_MIR: 0
+CutType.FLOW_COVER: 0
+CutType.RESIDUAL_CAPACITY: 89
+CutType.GMI: 0
+CutType.GOMORY: 42
+CutType.ZERO_HALF: 0
+CutType.RED_SPLIT_G: 0
+len dataset: 388
+test_ok: 388
+test_false: 0

@@ -1,4 +1,29 @@
-<class 'str'>
+Combinatory set: []
+Non-Combinatory set: [<CutType.ZERO_HALF: 11>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.FLOW_COVER: 5>, <CutType.RESIDUAL_CAPACITY: 10>]
+iteration 0
+relaxation time 252.8697 seconds
+CutType.COMBINATORY: 0
+CutType.ZERO_HALF: 0
+len dataset: 0
+test_ok: 0
+test_false: 0
+Combinatory set: [<CutType.CLIQUE: 12>]
+Non-Combinatory set: [<CutType.RESIDUAL_CAPACITY: 10>]
+iteration 0
+relaxation time 530.1331 seconds
+CutType.COMBINATORY: 0
+CutType.RESIDUAL_CAPACITY: 0
+len dataset: 0
+test_ok: 0
+test_false: 0
+Combinatory set: [<CutType.CLIQUE: 12>, <CutType.KNAPSACK_COVER: 14>, <CutType.PROBING: 0>]
+Non-Combinatory set: [<CutType.MIR: 6>, <CutType.LATWO_MIR: 8>, <CutType.RESIDUAL_CAPACITY: 10>]
+iteration 0
+relaxation time 527.1012 seconds
+CutType.COMBINATORY: 0
+CutType.MIR: 0
+CutType.LATWO_MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
 len dataset: 0
 test_ok: 0
 test_false: 0

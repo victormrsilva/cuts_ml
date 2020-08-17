@@ -1,0 +1,397 @@
+Combinatory set: [<CutType.CLIQUE: 12>, <CutType.ODD_WHEEL: 13>, <CutType.PROBING: 0>]
+Non-Combinatory set: [<CutType.LATWO_MIR: 8>, <CutType.MIR: 6>, <CutType.ZERO_HALF: 11>, <CutType.GOMORY: 1>, <CutType.RED_SPLIT_G: 4>, <CutType.FLOW_COVER: 5>, <CutType.TWO_MIR: 7>]
+iteration 0
+relaxation time 0.6972 seconds
+CutType.COMBINATORY: 0
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.ZERO_HALF: 0
+CutType.GOMORY: 0
+CutType.RED_SPLIT_G: 0
+CutType.FLOW_COVER: 0
+CutType.TWO_MIR: 0
+len dataset: 0
+test_ok: 0
+test_false: 0
+Combinatory set: [<CutType.ODD_WHEEL: 13>]
+Non-Combinatory set: [<CutType.GOMORY: 1>, <CutType.LATWO_MIR: 8>, <CutType.MIR: 6>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.RED_SPLIT: 3>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.TWO_MIR: 7>, <CutType.RED_SPLIT_G: 4>, <CutType.GMI: 2>]
+iteration 0
+relaxation time 0.6777 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+CutType.LIFT_AND_PROJECT: 64
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+Combinatory set: [<CutType.KNAPSACK_COVER: 14>, <CutType.PROBING: 0>]
+Non-Combinatory set: [<CutType.GOMORY: 1>, <CutType.TWO_MIR: 7>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.LATWO_MIR: 8>, <CutType.GMI: 2>, <CutType.RED_SPLIT_G: 4>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.ZERO_HALF: 11>]
+iteration 0
+relaxation time 1.3508 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.TWO_MIR: 0
+CutType.LIFT_AND_PROJECT: 64
+CutType.LATWO_MIR: 0
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 1
+relaxation time 6.4024 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 13
+CutType.LATWO_MIR: 0
+CutType.MIR: 6
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+CutType.LIFT_AND_PROJECT: 46
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 2
+relaxation time 19.4746 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 3
+CutType.LATWO_MIR: 0
+CutType.MIR: 1
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 1
+relaxation time 6.3501 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 13
+CutType.TWO_MIR: 0
+CutType.LIFT_AND_PROJECT: 57
+CutType.LATWO_MIR: 0
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 3
+relaxation time 3.1728 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 10
+CutType.LATWO_MIR: 0
+CutType.MIR: 1
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 4
+relaxation time 4.1317 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 7
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 5
+relaxation time 26.2822 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 6
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 2
+relaxation time 17.5553 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 10
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 6
+relaxation time 34.7106 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 12
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 7
+relaxation time 35.4081 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 11
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 3
+relaxation time 7.8871 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 4
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 8
+relaxation time 98.5491 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 1
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 9
+relaxation time 2.3446 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 7
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 4
+relaxation time 8.1825 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 7
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 10
+relaxation time 75.8407 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 1
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 5
+relaxation time 3.989 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 20
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 11
+relaxation time 14.8173 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 2
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 12
+relaxation time 3.1037 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 6
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 6
+relaxation time 56.4437 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 7
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 7
+relaxation time 13.2911 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 4
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 13
+relaxation time 55.0157 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 2
+CutType.LATWO_MIR: 0
+CutType.MIR: 1
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 8
+relaxation time 38.0887 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 1
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 9
+relaxation time 3.4387 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 4
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 14
+relaxation time 15.5922 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 1
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.TWO_MIR: 0
+CutType.RED_SPLIT_G: 0
+CutType.GMI: 0
+iteration 10
+relaxation time 10.1931 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 1
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 11
+relaxation time 2.3787 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 3
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 12
+relaxation time 12.4346 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 1
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 0
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 13
+relaxation time 5.144 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.TWO_MIR: 0
+exception ('Unknow sense: N',)
+error in cut CutType.LIFT_AND_PROJECT
+CutType.LATWO_MIR: 0
+CutType.GMI: 4
+CutType.RED_SPLIT_G: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.ZERO_HALF: 0
+iteration 15
+relaxation time 6.6938 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 2
+CutType.LATWO_MIR: 0
+CutType.MIR: 0
+CutType.RESIDUAL_CAPACITY: 0
+CutType.RED_SPLIT: 0
+len dataset: 203
+test_ok: 203
+test_false: 0
+iteration 14
+relaxation time 29.5863 seconds
+CutType.COMBINATORY: 0
+CutType.GOMORY: 0
+CutType.TWO_MIR: 0
+len dataset: 200
+test_ok: 200
+test_false: 0

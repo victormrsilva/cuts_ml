@@ -1,0 +1,18 @@
+Combinatory set: [<CutType.ODD_WHEEL: 13>, <CutType.KNAPSACK_COVER: 14>]
+Non-Combinatory set: [<CutType.GOMORY: 1>, <CutType.FLOW_COVER: 5>, <CutType.RED_SPLIT: 3>, <CutType.RED_SPLIT_G: 4>, <CutType.ZERO_HALF: 11>, <CutType.TWO_MIR: 7>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.MIR: 6>, <CutType.LATWO_MIR: 8>]
+iteration 0
+len dataset: 0
+test_ok: 0
+test_false: 0
+Combinatory set: [<CutType.ODD_WHEEL: 13>, <CutType.CLIQUE: 12>, <CutType.PROBING: 0>, <CutType.KNAPSACK_COVER: 14>]
+Non-Combinatory set: [<CutType.LATWO_MIR: 8>, <CutType.FLOW_COVER: 5>, <CutType.GOMORY: 1>, <CutType.ZERO_HALF: 11>]
+iteration 0
+len dataset: 0
+test_ok: 0
+test_false: 0
+Combinatory set: [<CutType.CLIQUE: 12>, <CutType.ODD_WHEEL: 13>]
+Non-Combinatory set: [<CutType.RED_SPLIT: 3>, <CutType.ZERO_HALF: 11>, <CutType.MIR: 6>, <CutType.LATWO_MIR: 8>, <CutType.TWO_MIR: 7>, <CutType.RED_SPLIT_G: 4>, <CutType.LIFT_AND_PROJECT: 9>, <CutType.FLOW_COVER: 5>, <CutType.RESIDUAL_CAPACITY: 10>, <CutType.GMI: 2>, <CutType.GOMORY: 1>]
+iteration 0
+len dataset: 0
+test_ok: 0
+test_false: 0
