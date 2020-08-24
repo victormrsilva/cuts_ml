@@ -1,29 +1,26 @@
 from instance import Instance
 from mip.callbacks import CutPool
 from mip.model import compute_features, features
-from mip.entities import Constr
+from mip.entities import Constr, LinExpr
 from mip.constants import INTEGER, BINARY, CONTINUOUS, OptimizationStatus
 from mip.constants import CutType
 import time
 import inspect
 import os
+import random
+import pandas as pd
 
 
 class ExtractFeatures:
     def __init__(self, instance: Instance):
         self.instance = instance
-        if os.path.exists('{}_dataset.csv'.format(self.instance.name)):
-            append_write = 'a'  # append if already exists
-        else:
-            append_write = 'w'  # make a new file if not
-        self.csv = open('{}_dataset.csv'.format(self.instance.name), append_write)
         if os.path.exists('{}_dataset.log'.format(self.instance.name)):
             append_write = 'a'  # append if already exists
         else:
             append_write = 'w'  # make a new file if not
         self.log = open('{}_dataset.log'.format(self.instance.name), append_write)
 
-        self.dataset = list()
+        self.dataset = [[[[] for i in range(2)] for j in range(15)] for k in range(10)]
         self.feat_names = features()
         self.instance_feat_values = compute_features(self.instance.model)
 
@@ -51,12 +48,41 @@ class ExtractFeatures:
         self.feat_names.append('rhs')  # ###
         self.feat_names.append('sense')  # ###
         self.feat_names.append('diff')  # ###
+        self.feat_names.append('away')  # ###
+        self.feat_names.append('lub')  # ###
+        self.feat_names.append('eps_coeff')  # ###
+        self.feat_names.append('eps_coeff_lub')  # ###
+
 
         # decision label
         self.feat_names.append('label')
 
         self.test_ok = 0
         self.test_false = 0
+
+    def features_gerard(self, c: LinExpr):
+        feat = dict()
+        feat['away'] = 0
+        feat['lub'] = 0
+        feat['eps_coeff'] = 0
+        feat['eps_coeff_lub'] = 0
+
+        AWAY = 1e-2
+        EPS_COEFF = 1e-11
+
+        for var, coef in c.expr.items():
+            # print(var.x, coef, var.ub, var.lb, AWAY, abs(var.x - var.ub) < AWAY, abs(var.x - var.lb) < AWAY)
+            if abs(var.x - round(var.x)) < AWAY:
+                feat['away'] = feat['away'] + 1
+
+            if abs(var.x - var.ub) < AWAY or abs(var.x - var.lb) < AWAY:
+                feat['lub'] = feat['lub'] + 1
+                if abs(coef) < EPS_COEFF:
+                    feat['eps_coeff_lub'] = feat['eps_coeff_lub'] + 1
+            else:
+                if abs(coef) < EPS_COEFF:
+                    feat['eps_coeff'] = feat['eps_coeff'] + 1
+        return feat
 
     def zeros_unsatis(self):
         zeros = 0
@@ -100,12 +126,19 @@ class ExtractFeatures:
         feat.append(c.sense)
         feat.append(feat_cut['diff'])
 
+        new_feat = self.features_gerard(c)
+        feat.append(new_feat['away'])
+        feat.append(new_feat['lub'])
+        feat.append(new_feat['eps_coeff'])
+        feat.append(new_feat['eps_coeff_lub'])
+
         # label
         feat.append(label)  # label
 
         return feat
 
     def test(self, combinatory: [CutType], noncombinatory: [CutType]):
+
         self.log.write('Combinatory set: {}\n'.format(combinatory))
         self.log.write('Non-Combinatory set: {}\n'.format(noncombinatory))
 
@@ -113,7 +146,7 @@ class ExtractFeatures:
         iteration = 0
         qtd_cuts = 1
         # temporizar as rodadas para ver se é necessário a limitação de cortes inseridos
-        while qtd_cuts > 0:
+        while qtd_cuts > 0 and iteration < 10:
             self.log.write('iteration {}\n'.format(iteration))
             print('iteration {}'.format(iteration))
             qtd_cuts = 0
@@ -144,37 +177,42 @@ class ExtractFeatures:
                     self.instance.model += c, 'cut_combinatory({})'.format(qtd)
 
             for type_cut in noncombinatory:
-                try:
+                # try:
                     cp = self.instance.model.generate_cuts([type_cut], 8192, 1e-4)
                     print(type_cut, len(cp.cuts))
                     self.log.write('{}: {}\n'.format(type_cut, len(cp.cuts)))
-                    qtd_cuts = qtd_cuts + len(cp.cuts)
+
                     if len(cp.cuts) > 0:
-                        # input()
+                        i = 0
                         for c in cp.cuts:
-                            qtd = qtd + 1
-                            self.instance.model += c, 'cut_{}({})'.format(type_cut.value, qtd)
-                            feat_cut, label = self.label_cut(c, type_cut)
-                            if label > 0:
-                                self.test_ok = self.test_ok + 1
-                            else:
-                                self.test_false = self.test_false + 1
-                            feat = self.features(iteration, type_cut, c, zeros, unsatis, label, feat_cut)
-                            self.dataset.append(feat)
-                except Exception as e:
+                            if i < 30:
+                                feat_cut, label = self.label_cut(c, type_cut)
+                                if label > 0:
+                                    qtd = qtd + 1
+                                    self.test_ok = self.test_ok + 1
+                                    i = i + 1
+                                    qtd_cuts = qtd_cuts + 1
+                                    self.instance.model += c, 'cut_{}({})'.format(type_cut.value, qtd)
+                                else:
+                                    self.test_false = self.test_false + 1
+                                feat = self.features(iteration, type_cut, c, zeros, unsatis, label, feat_cut)
+                                if len(self.dataset[iteration][type_cut.value][label]) == 10:
+                                    self.dataset[iteration][type_cut.value][label].pop(random.randint(0, 9))
+                                self.dataset[iteration][type_cut.value][label].append(feat)
+                # except Exception as e:
                     # print(inspect.trace()[-1][0].f_locals)
-                    type_cut = inspect.trace()[-1][0].f_locals['cut_types'][0]
-                    print('exception {}'.format(e))
-                    print('error in cut {}'.format(type_cut))
-                    self.log.write('exception {}\n'.format(e))
-                    self.log.write()
+                    # type_cut = '' # inspect.trace()[-1][0].f_locals['cut_types'][0]
+                    # print('exception {}'.format(e))
+                    # print('error in cut {}'.format(type_cut))
+                    # self.log.write('exception {}\n'.format(e))
+                    # self.log.write('error in cut {}'.format(type_cut))
                     # cp = inspect.trace()[-1][0].f_locals['cp']
                     # print(len(cp.cuts))
                     # if len(cp.cuts) > 0:
                     #     c = inspect.trace()[-1][0].f_locals['cut']
                     #     print(c)
                     # input('erro')
-                    pass
+                    # pass
 
             # add noncombinatory
             # print(noncombinatory)
@@ -191,19 +229,32 @@ class ExtractFeatures:
         out = str(self.feat_names[0])
         for v in self.feat_names[1:]:
             out = out + ';{}'.format(v)
-        self.csv.write('{}\n'.format(out))
 
-        for d in self.dataset:
-            out = str(d[0])
-            for v in d[1:]:
-                out = out + ';{}'.format(v)
-            self.csv.write('{}\n'.format(out))
-        self.csv.close()
-        print('len dataset', len(self.dataset))
+        for i in range(10):
+            for t in range(15):
+                for label in range(2):
+                    if len(self.dataset[i][t][label]) > 0:
+                        filename = '{}_{}_{}_{}_dataset.csv'.format(self.instance.name, i, t, label)
+                        if not os.path.exists('{}_{}_{}_{}_dataset.csv'.format(self.instance.name, i, t, label)):
+                            file = open(filename, 'w')
+                            file.write('{}\n'.format(out))
+                            file.close()
+                        csv_file = pd.read_csv(filename, delimiter=';')
+                        for feat in self.dataset[i][t][label]:
+                            while len(csv_file) >= 10:
+                                # print(t)
+                                # print(csv_file)
+                                csv_file = csv_file.drop(index=random.randint(0, len(csv_file)-1))
+                                # input(csv_file)
+
+                            s = pd.Series(feat, index=csv_file.columns)
+                            if s.values.tolist() not in csv_file.values.tolist():
+                                csv_file = csv_file.append(s, ignore_index=True)
+                        csv_file.to_csv(filename, sep=';', index=False)
+
         print('test_ok', self.test_ok)
         print('test_false', self.test_false)
 
-        self.log.write('len dataset: {}\n'.format(len(self.dataset)))
         self.log.write('test_ok: {}\n'.format(self.test_ok))
         self.log.write('test_false: {}\n'.format(self.test_false))
         self.log.close()
