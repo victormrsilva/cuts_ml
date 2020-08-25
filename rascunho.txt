@@ -1,1961 +1,260 @@
-REPORT MIR
-Total rows 51066
+REPORT
+Total rows 52613
 Total by label
 label
-0      344
-1    50722
-dtype: int64
-Total by cut_type
-cut_type
-FLOW_COVER            2604
-GMI                   4837
-GOMORY               10522
-LIFT_AND_PROJECT     11434
-MIR                  10087
-RED_SPLIT             6189
-RED_SPLIT_G           2197
-RESIDUAL_CAPACITY     3196
+0      350
+1    52263
 dtype: int64
 Total by cut_type and label
 cut_type           label
 FLOW_COVER         0            6
-                   1         2598
+                   1         2748
 GMI                0           21
-                   1         4816
+                   1         5066
 GOMORY             0          157
-                   1        10365
-LIFT_AND_PROJECT   0           28
-                   1        11406
+                   1        10463
+LIFT_AND_PROJECT   0           30
+                   1        11667
 MIR                0           95
-                   1         9992
+                   1        10405
 RED_SPLIT          0           17
-                   1         6172
-RED_SPLIT_G        0           20
-                   1         2177
-RESIDUAL_CAPACITY  1         3196
+                   1         6246
+RED_SPLIT_G        0           24
+                   1         2379
+RESIDUAL_CAPACITY  1         3289
 dtype: int64
 Total by instance_name, cut_type and label
-instance                     cut_type           label
-30n20b8                      GMI                1         45
-                             GOMORY             1          6
-                             MIR                1         40
-                             RED_SPLIT          1        100
-50v-10                       GOMORY             1         74
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1        100
-CMS750_4                     GOMORY             1         98
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1         19
-                             RESIDUAL_CAPACITY  1         20
-academictimetablesmall       GOMORY             1        100
-                             RESIDUAL_CAPACITY  1         91
-app1-2                       GMI                1         40
-                             LIFT_AND_PROJECT   1         20
-assign1-5-8                  GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         34
-                             RED_SPLIT_G        1        100
-atlanta-ip                   FLOW_COVER         1          5
-                             GMI                1         11
-                             GOMORY             1         10
-                             LIFT_AND_PROJECT   1         70
-                             MIR                1         30
-                             RED_SPLIT          1         50
-b1c1s1                       FLOW_COVER         1         18
-                             GMI                1          9
-                             GOMORY             1         98
-                             LIFT_AND_PROJECT   1         84
-                             MIR                1        100
-bab2                         GOMORY             1         62
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1         21
-bab6                         GMI                1         10
-                             GOMORY             1         69
-                             MIR                1          5
-                             RED_SPLIT          1         18
-                             RESIDUAL_CAPACITY  1         27
-beasleyC3                    FLOW_COVER         1         68
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT_G        1         27
-binkar10_1                   GMI                1        100
-                             GOMORY             1         54
-                             LIFT_AND_PROJECT   1         37
-                             MIR                1         80
-                             RED_SPLIT_G        1         26
-blp-ar98                     FLOW_COVER         1          3
-                             GOMORY             1         81
-                             MIR                1         99
-bnatt400                     GOMORY             1         89
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         90
-                             RESIDUAL_CAPACITY  1         61
-bppc4-08                     GOMORY             1          5
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         10
-                             RED_SPLIT          1         19
-brazil3                      GOMORY             1         54
-                             MIR                1          2
-                             RESIDUAL_CAPACITY  1         12
-buildingenergy               GOMORY             1         10
-                             RED_SPLIT          1         66
-chromaticindex1024-7         GMI                1         10
-                             GOMORY             1         20
-                             RED_SPLIT          1         10
-chromaticindex512-7          GOMORY             1        100
-                             LIFT_AND_PROJECT   1         20
-                             RED_SPLIT          1         99
-                             RESIDUAL_CAPACITY  1          1
-cmflsp50-24-8-8              GMI                1         27
-                             RED_SPLIT          1         70
-cod105                       GMI                1        100
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1         60
-comp07-2idx                  GOMORY             1        100
-                             LIFT_AND_PROJECT   1         44
-                             MIR                1          8
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1         46
-comp21-2idx                  GOMORY             1         90
-                             LIFT_AND_PROJECT   1         97
-                             MIR                1         69
-                             RESIDUAL_CAPACITY  1         83
-cost266-UUE                  GMI                1         53
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         85
-                             RED_SPLIT          1         90
-                             RED_SPLIT_G        1         14
-csched007                    FLOW_COVER         1         49
-                             GMI                1         70
-                             GOMORY             1         34
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         80
-                             RED_SPLIT          1         10
-csched008                    FLOW_COVER         1        100
-                             GMI                1          6
-                             GOMORY             1         38
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         10
-                             RED_SPLIT_G        1         20
-                             RESIDUAL_CAPACITY  1         10
-cvs16r128-89                 GOMORY             1         20
-                             LIFT_AND_PROJECT   1         40
-                             RED_SPLIT          1         12
-                             RED_SPLIT_G        1         44
-dano3_3                      RED_SPLIT          1         58
-dano3_5                      RED_SPLIT          1         96
-decomp2                      GOMORY             1         49
-                             LIFT_AND_PROJECT   1         61
-                             MIR                1          1
-drayage-100-23               FLOW_COVER         1          7
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1         59
-drayage-25-23                FLOW_COVER         1          6
-                             GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         90
-                             RED_SPLIT_G        1         60
-                             RESIDUAL_CAPACITY  1         72
-dws008-01                    FLOW_COVER         1         97
-                             GOMORY             1         87
-                             LIFT_AND_PROJECT   1         95
-                             MIR                1        100
-                             RED_SPLIT_G        1         20
-                             RESIDUAL_CAPACITY  1         23
-eil33-2                      LIFT_AND_PROJECT   1        100
-                             MIR                1          4
-                             RED_SPLIT          1         85
-enlight_hard                 GOMORY             1         99
-                             LIFT_AND_PROJECT   1         90
-                             MIR                1         90
-                             RED_SPLIT          1          4
-                             RED_SPLIT_G        1         10
-                             RESIDUAL_CAPACITY  1         51
-ex10                         RED_SPLIT          1         40
-ex9                          RED_SPLIT          0          6
-                                                1         68
-exp-1-500-5-5                GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1        100
-fast0507                     RED_SPLIT          1         50
-fastxgemm-n2r6s0t2           GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          4
-                             RED_SPLIT          1         95
-fiball                       GOMORY             1        100
-                             MIR                1        100
-gen-ip002                    GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1         31
-gen-ip054                    GMI                1         84
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          9
-                             RED_SPLIT_G        1        100
-germanrr                     GOMORY             1         82
-                             MIR                1         96
-gfd-schedulen180f7d50m30k18  GOMORY             1         50
-                             RESIDUAL_CAPACITY  1         52
-glass-sc                     GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         88
-                             RED_SPLIT          1         97
-                             RED_SPLIT_G        1        100
-glass4                       FLOW_COVER         1         23
-                             GMI                0          5
-                                                1         82
-                             GOMORY             0          5
-                                                1         79
-                             LIFT_AND_PROJECT   0          6
-                                                1         99
-                             MIR                1        100
-                             RED_SPLIT          1         10
-gmu-35-40                    GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          6
-gmu-35-50                    GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          2
-                             RED_SPLIT          1         72
-graph20-20-1rand             GMI                0         10
-                                                1         10
-                             GOMORY             0          9
-                                                1         86
-                             MIR                1         96
-graphdraw-domain             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1         50
-                             RED_SPLIT_G        1         20
-                             RESIDUAL_CAPACITY  1          3
-h80x6320d                    FLOW_COVER         1         35
-                             GMI                1         85
-                             GOMORY             1         11
-                             MIR                1        100
-hypothyroid-k1               LIFT_AND_PROJECT   1         50
-                             MIR                1         32
-ic97_potential               FLOW_COVER         1         21
-                             GOMORY             0          1
-                                                1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         99
-                             RESIDUAL_CAPACITY  1         74
-icir97_tension               FLOW_COVER         1         47
-                             GMI                1         78
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1        100
-                             RESIDUAL_CAPACITY  1         67
-irish-electricity            FLOW_COVER         1         13
-                             GOMORY             1        100
-                             MIR                1         67
-                             RED_SPLIT          1          5
-                             RESIDUAL_CAPACITY  1          1
-irp                          RED_SPLIT          1         73
-istanbul-no-cutoff           FLOW_COVER         1         78
-                             GOMORY             1         36
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1         99
-k1mushroom                   LIFT_AND_PROJECT   1         10
-                             MIR                1          2
-lectsched-5-obj              GMI                1        100
-                             GOMORY             1        100
-leo1                         GOMORY             1          3
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT_G        1          9
-leo2                         GMI                1          3
-                             MIR                1        100
-                             RED_SPLIT          1         82
-lotsize                      FLOW_COVER         1          2
-                             GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         75
-                             RED_SPLIT_G        1         60
-mad                          GMI                1         90
-                             GOMORY             1         98
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1          3
-                             RED_SPLIT_G        1         50
-map10                        GMI                1         91
-                             GOMORY             1         21
-                             LIFT_AND_PROJECT   1         70
-                             MIR                1         54
-                             RED_SPLIT          1         21
-                             RED_SPLIT_G        1         19
-map16715-04                  LIFT_AND_PROJECT   1         83
-                             MIR                1         87
-                             RED_SPLIT          1         43
-                             RED_SPLIT_G        1          1
-markshare2                   FLOW_COVER         1         34
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         97
-                             RED_SPLIT_G        1        100
-markshare_4_0                FLOW_COVER         1          2
-                             LIFT_AND_PROJECT   1         98
-                             MIR                1         98
-                             RED_SPLIT_G        1         30
-mas74                        GMI                1         45
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         11
-                             RED_SPLIT          1          3
-mas76                        GMI                1         30
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1          1
-                             RED_SPLIT_G        1        100
-mc11                         FLOW_COVER         1         99
-                             GMI                1         99
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1          6
-mcsched                      GMI                1         98
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         90
-mik-250-20-75-4              GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         38
-milo-v12-6-r2-40-1           GMI                1         43
-                             GOMORY             1         25
-                             LIFT_AND_PROJECT   1         64
-momentum1                    FLOW_COVER         1          5
-                             GMI                1          7
-                             GOMORY             1         10
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         98
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1         11
-mushroom-best                LIFT_AND_PROJECT   1         98
-                             RED_SPLIT          1          2
-mzzv11                       FLOW_COVER         1         10
-                             GMI                1         10
-                             GOMORY             0         21
-                                                1         88
-                             LIFT_AND_PROJECT   0         10
-                                                1        100
-                             MIR                0          9
-                                                1         78
-                             RED_SPLIT          1         10
-                             RED_SPLIT_G        1         10
-                             RESIDUAL_CAPACITY  1         13
-mzzv42z                      GMI                1         30
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         18
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1          1
-n3div36                      MIR                1         64
-                             RED_SPLIT          1         71
-n5-3                         GMI                1         80
-                             GOMORY             1         76
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         68
-                             RED_SPLIT          1         30
-n9-3                         GMI                1         35
-                             GOMORY             1         62
-                             LIFT_AND_PROJECT   1         94
-                             MIR                1         58
-                             RED_SPLIT          1        100
-neos-1122047                 GMI                0          2
-                                                1         14
-                             GOMORY             0          2
-                                                1         18
-                             LIFT_AND_PROJECT   0          1
-                                                1         26
-                             MIR                1         13
-                             RED_SPLIT          1          4
-neos-1171448                 FLOW_COVER         1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1        100
-neos-1171737                 FLOW_COVER         1        100
-                             GOMORY             1         51
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-neos-1354092                 GMI                1         50
-                             MIR                1         18
-                             RED_SPLIT          1        100
-                             RED_SPLIT_G        1         41
-                             RESIDUAL_CAPACITY  1          2
-neos-1445765                 FLOW_COVER         1         11
-                             MIR                1         99
-neos-1456979                 GOMORY             1         97
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         10
-                             RED_SPLIT_G        1         90
-                             RESIDUAL_CAPACITY  1         21
-neos-1582420                 GMI                1         87
-                             GOMORY             1         10
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1        100
-                             RED_SPLIT_G        1         14
-neos-2657525-crna            FLOW_COVER         1         34
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT_G        1        100
-                             RESIDUAL_CAPACITY  1         29
-neos-2746589-doon            GOMORY             1        100
-                             MIR                1          2
-                             RESIDUAL_CAPACITY  1         31
-neos-2978193-inde            GMI                1         52
-                             GOMORY             1         54
-                             RED_SPLIT_G        1         13
-                             RESIDUAL_CAPACITY  1         90
-neos-3024952-loue            GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         90
-                             RED_SPLIT_G        1         80
-neos-3046615-murg            GMI                1         10
-                             GOMORY             1         62
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1         26
-                             RED_SPLIT_G        1         17
-neos-3083819-nubu            FLOW_COVER         1          4
-                             GMI                1          4
-                             GOMORY             1          4
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1          5
-                             RED_SPLIT          0          4
-                                                1         56
-                             RED_SPLIT_G        0         10
-                                                1         11
-neos-3216931-puriri          GOMORY             1         26
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         45
-                             RED_SPLIT          1         48
-neos-3381206-awhea           FLOW_COVER         0          2
-                                                1         94
-                             GOMORY             1         92
-                             LIFT_AND_PROJECT   1         85
-                             MIR                1         97
-                             RED_SPLIT_G        1         42
-                             RESIDUAL_CAPACITY  1         88
-neos-3402294-bobin           GMI                1         20
-                             GOMORY             1         10
-                             LIFT_AND_PROJECT   1         10
-                             MIR                1         10
-neos-3555904-turama          GMI                1          6
-                             GOMORY             1         29
-                             RED_SPLIT          1         11
-neos-3627168-kasai           FLOW_COVER         1         51
-                             GMI                1         94
-                             GOMORY             1         99
-                             LIFT_AND_PROJECT   1         92
-                             MIR                1        100
-                             RED_SPLIT_G        1         18
-neos-3656078-kumeu           FLOW_COVER         1         35
-                             GOMORY             0          6
-                                                1         69
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         68
-                             RESIDUAL_CAPACITY  1         52
-neos-3754480-nidda           GMI                1          1
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1        100
-neos-4300652-rahue           FLOW_COVER         1         70
-                             GMI                1         10
-                             GOMORY             1         40
-                             LIFT_AND_PROJECT   1         30
-                             MIR                1         30
-                             RED_SPLIT          1         30
-neos-4387871-tavua           FLOW_COVER         1          1
-                             GMI                1          3
-                             GOMORY             1         63
-                             LIFT_AND_PROJECT   1         96
-                             MIR                1         98
-                             RED_SPLIT          0          1
-                                                1         96
-neos-4413714-turia           GMI                1         80
-                             MIR                1         98
-                             RESIDUAL_CAPACITY  1         93
-neos-4532248-waihi           GOMORY             1         41
-                             LIFT_AND_PROJECT   1         10
-                             MIR                1         97
-                             RESIDUAL_CAPACITY  1         50
-neos-4647030-tutaki          GMI                1         48
-                             GOMORY             1         74
-                             LIFT_AND_PROJECT   1         50
-                             MIR                1         26
-                             RED_SPLIT          1         29
-                             RED_SPLIT_G        1         26
-neos-4722843-widden          FLOW_COVER         1         28
-                             GMI                1         23
-                             GOMORY             1         96
-                             MIR                1         95
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1         53
-neos-4738912-atrato          FLOW_COVER         1         91
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         96
-                             RESIDUAL_CAPACITY  1        100
-neos-4763324-toguru          GMI                1         10
-                             GOMORY             1         10
-                             MIR                1         10
-                             RED_SPLIT_G        1          1
-neos-4954672-berkel          FLOW_COVER         1         10
-                             GOMORY             1         94
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-neos-5049753-cuanza          GOMORY             1          7
-                             MIR                1          4
-neos-5052403-cygnet          MIR                1          9
-                             RED_SPLIT          1         69
-neos-5075914-elvire          FLOW_COVER         0          4
-                                                1         94
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         98
-neos-5093327-huahum          GMI                1         64
-neos-5104907-jarama          FLOW_COVER         1          4
-                             MIR                1          9
-neos-5107597-kakapo          GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         28
-                             RED_SPLIT          1         10
-                             RED_SPLIT_G        1         81
-                             RESIDUAL_CAPACITY  1          1
-neos-5188808-nattai          GMI                1        100
-                             GOMORY             1         90
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         93
-                             RED_SPLIT          1         22
-neos-5195221-niemur          GOMORY             1         98
-                             LIFT_AND_PROJECT   1         28
-                             MIR                1         59
-                             RESIDUAL_CAPACITY  1         11
-neos-631710                  GMI                1         93
-                             GOMORY             1          7
-                             MIR                1         58
-                             RESIDUAL_CAPACITY  1          1
-neos-662469                  GMI                1         13
-                             GOMORY             1         13
-neos-787933                  GOMORY             1         15
-                             RESIDUAL_CAPACITY  1         65
-neos-827175                  GOMORY             1         20
-                             RESIDUAL_CAPACITY  1         34
-neos-860300                  GMI                1         12
-                             GOMORY             1          5
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         68
-                             RED_SPLIT          1         90
-                             RED_SPLIT_G        1         22
-                             RESIDUAL_CAPACITY  1          1
-neos-873061                  FLOW_COVER         1         21
-                             GMI                0          4
-                                                1         20
-                             GOMORY             1         83
-                             RED_SPLIT_G        0         10
-                                                1         71
-                             RESIDUAL_CAPACITY  1         23
-neos-911970                  GMI                1         97
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1        100
-neos-933966                  GOMORY             1         12
-                             MIR                1         10
-                             RED_SPLIT          1         30
-neos-950242                  FLOW_COVER         1          4
-                             GMI                1         71
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         75
-                             MIR                1         37
-                             RED_SPLIT          1         46
-                             RESIDUAL_CAPACITY  1         20
-neos-957323                  MIR                1          1
-                             RED_SPLIT          1         80
-                             RED_SPLIT_G        1         49
-                             RESIDUAL_CAPACITY  1         31
-neos17                       GMI                1         93
-                             GOMORY             1          2
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         21
-                             RED_SPLIT          1          4
-                             RED_SPLIT_G        1        100
-                             RESIDUAL_CAPACITY  1          7
-neos5                        GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         62
-                             RED_SPLIT          1         71
-neos8                        GOMORY             1         10
-                             MIR                1         16
-                             RED_SPLIT          1         10
-                             RED_SPLIT_G        1         50
-net12                        FLOW_COVER         1         22
-                             GOMORY             1         94
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1         97
-                             RED_SPLIT          1         20
-                             RED_SPLIT_G        1         10
-                             RESIDUAL_CAPACITY  1         97
-netdiversion                 GMI                1         97
-                             GOMORY             1         18
-                             RED_SPLIT          1         15
-nexp-150-20-8-5              GMI                1        100
-                             GOMORY             1         29
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         17
-                             RED_SPLIT          1         30
-                             RED_SPLIT_G        1         89
-ns1116954                    GOMORY             1         32
-                             LIFT_AND_PROJECT   1         80
-                             MIR                1         76
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1          5
-ns1208400                    GMI                1          9
-                             GOMORY             1         11
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         99
-                             RED_SPLIT          1         20
-ns1644855                    RED_SPLIT          1        100
-ns1760995                    GMI                1         68
-                             LIFT_AND_PROJECT   1         10
-                             RED_SPLIT          1         70
-ns1830653                    FLOW_COVER         1         10
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1         55
-nu25-pr12                    FLOW_COVER         1          3
-                             GMI                1         20
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1         45
-nursesched-medium-hint03     RED_SPLIT          1         80
-nursesched-sprint02          GMI                1         20
-                             GOMORY             0         14
-                                                1        100
-                             LIFT_AND_PROJECT   0         11
-                                                1         99
-                             MIR                0         13
-                                                1         25
-                             RESIDUAL_CAPACITY  1         77
-nw04                         RED_SPLIT          1         65
-opm2-z10-s4                  LIFT_AND_PROJECT   1         10
-                             RED_SPLIT          1          5
-p200x1188c                   FLOW_COVER         1         32
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1          2
-peg-solitaire-a3             GOMORY             1         23
-                             RED_SPLIT          0          5
-                                                1         10
-pg                           FLOW_COVER         1         87
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         96
-                             RESIDUAL_CAPACITY  1        100
-pg5_34                       FLOW_COVER         1         97
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         94
-                             MIR                1         93
-                             RED_SPLIT          1          2
-                             RESIDUAL_CAPACITY  1        100
-physiciansched3-3            FLOW_COVER         1          1
-                             MIR                1         19
-                             RESIDUAL_CAPACITY  1          7
-physiciansched6-2            GOMORY             1         95
-                             MIR                1         48
-                             RESIDUAL_CAPACITY  1         19
-piperout-08                  FLOW_COVER         1         46
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         30
-                             MIR                1         11
-                             RED_SPLIT          1         67
-                             RESIDUAL_CAPACITY  1         24
-pk1                          GMI                1         10
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-proteindesign121hz512p9      RED_SPLIT          1        100
-proteindesign122trx11p8      GMI                1         10
-                             MIR                1         94
-                             RED_SPLIT          1         90
-qap10                        LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1        100
-rail01                       GOMORY             1          8
-ran14x18-disj-8              FLOW_COVER         1         20
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         96
-                             RED_SPLIT          1         86
-                             RESIDUAL_CAPACITY  1          3
-rd-rplusc-21                 FLOW_COVER         1         68
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         90
-                             RESIDUAL_CAPACITY  1         35
-reblock115                   GOMORY             1         15
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         98
-                             RED_SPLIT          1         90
-rmatr100-p10                 GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT_G        1         93
-rmatr200-p5                  GMI                1         10
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         89
-                             RED_SPLIT          1        100
-rocI-4-11                    FLOW_COVER         1         55
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         59
-                             MIR                1         60
-                             RED_SPLIT          1        100
-                             RESIDUAL_CAPACITY  1         50
-rocII-5-11                   FLOW_COVER         1         10
-                             GOMORY             1         91
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         55
-                             RED_SPLIT          1         70
-                             RESIDUAL_CAPACITY  1         22
-rococoB10-011000             GMI                1         86
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT_G        1         20
-                             RESIDUAL_CAPACITY  1          2
-rococoC11-011100             FLOW_COVER         1         19
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1         14
-roi2alpha3n4                 GMI                1          9
-                             GOMORY             1         32
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         99
-                             RESIDUAL_CAPACITY  1         88
-roi5alpha10n8                GOMORY             1         56
-                             MIR                1         90
-                             RESIDUAL_CAPACITY  1         94
-roll3000                     FLOW_COVER         1         71
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         97
-                             RED_SPLIT          1         20
-                             RESIDUAL_CAPACITY  1         64
-s250r10                      GMI                1          6
-                             MIR                1         11
-                             RED_SPLIT_G        1          2
-                             RESIDUAL_CAPACITY  1          1
-satellites2-40               FLOW_COVER         1          1
-                             GOMORY             1         42
-                             MIR                1         25
-                             RED_SPLIT          0          1
-                                                1        100
-                             RED_SPLIT_G        1          8
-                             RESIDUAL_CAPACITY  1          8
-satellites2-60-fs            GMI                1         82
-                             GOMORY             1         81
-                             MIR                1         24
-                             RED_SPLIT          1         95
-                             RESIDUAL_CAPACITY  1         21
-savsched1                    GOMORY             1         98
-                             RED_SPLIT          1         69
-sct2                         GMI                1         28
-                             GOMORY             1         33
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1        100
-seymour1                     GMI                1         60
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         22
-                             RED_SPLIT          1         74
-                             RED_SPLIT_G        1         50
-                             RESIDUAL_CAPACITY  1         14
-sing326                      FLOW_COVER         1         95
-                             GOMORY             1         68
-                             MIR                1        100
-sing44                       FLOW_COVER         1         56
-                             GMI                1         97
-                             GOMORY             1         80
-                             MIR                1        100
-                             RED_SPLIT          1         58
-snp-02-004-104               FLOW_COVER         1         27
-                             GMI                1         78
-                             GOMORY             1         99
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1         71
-                             RED_SPLIT          1         11
-                             RED_SPLIT_G        1         90
-                             RESIDUAL_CAPACITY  1          6
-sp150x300d                   FLOW_COVER         1         99
-                             GOMORY             1         67
-                             LIFT_AND_PROJECT   1         99
-                             RESIDUAL_CAPACITY  1         84
-sp97ar                       GOMORY             1          4
-                             MIR                1         37
-splice1k1                    LIFT_AND_PROJECT   1         40
-                             MIR                1         23
-                             RED_SPLIT          1          9
-supportcase10                GMI                1         10
-                             GOMORY             1         90
-                             LIFT_AND_PROJECT   1         10
-                             MIR                1         10
-supportcase12                GOMORY             1        100
-                             MIR                1         99
-                             RESIDUAL_CAPACITY  1        100
-supportcase26                GMI                1         29
-                             GOMORY             1         10
-                             LIFT_AND_PROJECT   1         93
-                             MIR                1         89
-supportcase33                FLOW_COVER         1          6
-                             GOMORY             1         20
-                             MIR                1         45
-supportcase40                GMI                1        100
-                             GOMORY             1         78
-                             LIFT_AND_PROJECT   1         97
-                             MIR                1         30
-                             RED_SPLIT          1         90
-supportcase7                 GMI                1         35
-                             RED_SPLIT          1          4
-swath1                       LIFT_AND_PROJECT   1         82
-                             MIR                1         44
-                             RED_SPLIT          1         11
-                             RED_SPLIT_G        1          2
-swath3                       LIFT_AND_PROJECT   1        100
-                             MIR                1         14
-                             RED_SPLIT_G        1          2
-tbfp-network                 MIR                1         72
-                             RED_SPLIT          1        100
-                             RESIDUAL_CAPACITY  1          2
-thor50dday                   FLOW_COVER         1         77
-                             GMI                1         99
-                             MIR                1         99
-timtab1                      FLOW_COVER         1         20
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         92
-                             RED_SPLIT          1        100
-                             RESIDUAL_CAPACITY  1         46
-tr12-30                      FLOW_COVER         1         89
-                             GOMORY             0         99
-                             MIR                0         73
-                                                1        100
-traininstance2               FLOW_COVER         1          5
-                             GMI                1         27
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1         94
-                             RED_SPLIT          1         19
-                             RED_SPLIT_G        1         22
-                             RESIDUAL_CAPACITY  1        100
-traininstance6               FLOW_COVER         1         22
-                             GOMORY             1         50
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1         76
-                             RED_SPLIT          1         44
-                             RESIDUAL_CAPACITY  1         49
-trento1                      LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1        100
-uccase12                     FLOW_COVER         1         18
-                             GMI                1         50
-                             GOMORY             1         30
-                             LIFT_AND_PROJECT   1         83
-                             MIR                1         22
-                             RED_SPLIT          1          2
-                             RED_SPLIT_G        1         13
-uccase9                      FLOW_COVER         1         49
-                             GOMORY             1         26
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         46
-                             RED_SPLIT_G        1         30
-                             RESIDUAL_CAPACITY  1          1
-uct-subprob                  GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1          3
-unitcal_7                    FLOW_COVER         1         19
-                             GMI                1         20
-                             GOMORY             1        100
-                             MIR                1         94
-                             RESIDUAL_CAPACITY  1         53
-var-smallemery-m6j6          LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1         87
-wachplan                     GOMORY             1         10
-                             RED_SPLIT          1         90
-                             RESIDUAL_CAPACITY  1          4
+instance             cut_type          label
+ex9                  RED_SPLIT         0         6
+glass4               GMI               0         5
+                     GOMORY            0         5
+                     LIFT_AND_PROJECT  0         8
+                     RED_SPLIT_G       0         4
+graph20-20-1rand     GMI               0        10
+                     GOMORY            0         9
+ic97_potential       GOMORY            0         1
+mzzv11               GOMORY            0        21
+                     LIFT_AND_PROJECT  0        10
+                     MIR               0         9
+neos-1122047         GMI               0         2
+                     GOMORY            0         2
+                     LIFT_AND_PROJECT  0         1
+neos-3083819-nubu    RED_SPLIT         0         4
+                     RED_SPLIT_G       0        10
+neos-3381206-awhea   FLOW_COVER        0         2
+neos-3656078-kumeu   GOMORY            0         6
+neos-4387871-tavua   RED_SPLIT         0         1
+neos-5075914-elvire  FLOW_COVER        0         4
+neos-873061          GMI               0         4
+                     RED_SPLIT_G       0        10
+nursesched-sprint02  GOMORY            0        14
+                     LIFT_AND_PROJECT  0        11
+                     MIR               0        13
+peg-solitaire-a3     RED_SPLIT         0         5
+satellites2-40       RED_SPLIT         0         1
+tr12-30              GOMORY            0        99
+                     MIR               0        73
+dtype: int64
+Total by instance_name and label
+instance             label
+ex9                  0          6
+glass4               0         22
+graph20-20-1rand     0         19
+ic97_potential       0          1
+mzzv11               0         40
+neos-1122047         0          5
+neos-3083819-nubu    0         14
+neos-3381206-awhea   0          2
+neos-3656078-kumeu   0          6
+neos-4387871-tavua   0          1
+neos-5075914-elvire  0          4
+neos-873061          0         14
+nursesched-sprint02  0         38
+peg-solitaire-a3     0          5
+satellites2-40       0          1
+tr12-30              0        172
 dtype: int64
 Total by iteration, cut_type and label
-relax_iteration  cut_type           label
-0                FLOW_COVER         1         350
-                 GMI                0          10
-                                    1         583
-                 GOMORY             0          18
-                                    1        1284
-                 LIFT_AND_PROJECT   1        1277
-                 MIR                0           6
-                                    1        1168
-                 RED_SPLIT          0          15
-                                    1         605
-                 RED_SPLIT_G        0          10
-                                    1         251
-                 RESIDUAL_CAPACITY  1         402
-1                FLOW_COVER         1         334
-                 GMI                1         521
-                 GOMORY             0          18
-                                    1        1203
-                 LIFT_AND_PROJECT   1        1220
-                 MIR                0          13
-                                    1        1150
-                 RED_SPLIT          0           2
-                                    1         588
-                 RED_SPLIT_G        0           7
-                                    1         229
-                 RESIDUAL_CAPACITY  1         413
-2                FLOW_COVER         0           2
-                                    1         288
-                 GMI                1         530
-                 GOMORY             0          20
-                                    1        1178
-                 LIFT_AND_PROJECT   0           2
-                                    1        1194
-                 MIR                0          15
-                                    1        1110
-                 RED_SPLIT          1         629
-                 RED_SPLIT_G        0           1
-                                    1         230
-                 RESIDUAL_CAPACITY  1         380
-3                FLOW_COVER         0           2
-                                    1         283
-                 GMI                1         458
-                 GOMORY             0          22
-                                    1        1091
-                 LIFT_AND_PROJECT   1        1168
-                 MIR                0          23
-                                    1        1060
-                 RED_SPLIT          1         647
-                 RED_SPLIT_G        0           2
-                                    1         220
-                 RESIDUAL_CAPACITY  1         353
-4                FLOW_COVER         1         276
-                 GMI                1         475
-                 GOMORY             0          12
-                                    1        1027
-                 LIFT_AND_PROJECT   0          13
-                                    1        1159
-                 MIR                0           6
-                                    1        1019
-                 RED_SPLIT          1         597
-                 RED_SPLIT_G        1         234
-                 RESIDUAL_CAPACITY  1         326
-5                FLOW_COVER         1         250
-                 GMI                1         451
-                 GOMORY             0          13
-                                    1        1025
-                 LIFT_AND_PROJECT   0           1
-                                    1        1116
-                 MIR                0           6
-                                    1         984
-                 RED_SPLIT          1         640
-                 RED_SPLIT_G        1         242
-                 RESIDUAL_CAPACITY  1         302
-6                FLOW_COVER         1         225
-                 GMI                0           4
-                                    1         484
-                 GOMORY             0          17
-                                    1         970
-                 LIFT_AND_PROJECT   0           2
-                                    1        1093
-                 MIR                0           6
-                                    1         940
-                 RED_SPLIT          1         596
-                 RED_SPLIT_G        1         178
-                 RESIDUAL_CAPACITY  1         284
-7                FLOW_COVER         1         218
-                 GMI                0           1
-                                    1         449
-                 GOMORY             0          11
-                                    1         891
-                 LIFT_AND_PROJECT   0           5
-                                    1        1073
-                 MIR                0           8
-                                    1         882
-                 RED_SPLIT          1         620
-                 RED_SPLIT_G        1         194
-                 RESIDUAL_CAPACITY  1         256
-8                FLOW_COVER         1         210
-                 GMI                0           6
-                                    1         432
-                 GOMORY             0          16
-                                    1         851
-                 LIFT_AND_PROJECT   0           5
-                                    1        1060
-                 MIR                0           6
-                                    1         862
-                 RED_SPLIT          1         670
-                 RED_SPLIT_G        1         197
-                 RESIDUAL_CAPACITY  1         250
-9                FLOW_COVER         0           2
-                                    1         164
-                 GMI                1         433
-                 GOMORY             0          10
-                                    1         845
-                 LIFT_AND_PROJECT   1        1046
-                 MIR                0           6
-                                    1         817
-                 RED_SPLIT          1         580
-                 RED_SPLIT_G        1         202
-                 RESIDUAL_CAPACITY  1         230
+relax_iteration  cut_type          label
+0                GMI               0        10
+                 GOMORY            0        18
+                 MIR               0         6
+                 RED_SPLIT         0        15
+                 RED_SPLIT_G       0        10
+1                GOMORY            0        18
+                 MIR               0        13
+                 RED_SPLIT         0         2
+                 RED_SPLIT_G       0         7
+2                FLOW_COVER        0         2
+                 GOMORY            0        20
+                 LIFT_AND_PROJECT  0         4
+                 MIR               0        15
+                 RED_SPLIT_G       0         1
+3                FLOW_COVER        0         2
+                 GOMORY            0        22
+                 MIR               0        23
+                 RED_SPLIT_G       0         3
+4                GOMORY            0        12
+                 LIFT_AND_PROJECT  0        13
+                 MIR               0         6
+5                GOMORY            0        13
+                 LIFT_AND_PROJECT  0         1
+                 MIR               0         6
+                 RED_SPLIT_G       0         1
+6                GMI               0         4
+                 GOMORY            0        17
+                 LIFT_AND_PROJECT  0         2
+                 MIR               0         6
+7                GMI               0         1
+                 GOMORY            0        11
+                 LIFT_AND_PROJECT  0         5
+                 MIR               0         8
+                 RED_SPLIT_G       0         2
+8                GMI               0         6
+                 GOMORY            0        16
+                 LIFT_AND_PROJECT  0         5
+                 MIR               0         6
+9                FLOW_COVER        0         2
+                 GOMORY            0        10
+                 MIR               0         6
+dtype: int64
+Total by iteration and label
+relax_iteration  label
+0                0        59
+1                0        40
+2                0        42
+3                0        50
+4                0        31
+5                0        21
+6                0        29
+7                0        27
+8                0        33
+9                0        18
 dtype: int64
 exported to csv
 
+
 REPORT LEOCMA
-REPORT
-Total rows 42006
+Total rows 44874
 Total by label
 label
-0      308
-1    41698
-dtype: int64
-Total by cut_type
-cut_type
-FLOW_COVER            1760
-GMI                   2696
-GOMORY                9703
-LIFT_AND_PROJECT     10045
-MIR                   8500
-RED_SPLIT             4509
-RED_SPLIT_G           2183
-RESIDUAL_CAPACITY     2610
+0      338
+1    44536
 dtype: int64
 Total by cut_type and label
 cut_type           label
-FLOW_COVER         0           1
-                   1        1759
-GMI                0          29
-                   1        2667
-GOMORY             0         124
-                   1        9579
-LIFT_AND_PROJECT   0         117
-                   1        9928
-MIR                1        8500
-RED_SPLIT          0          18
-                   1        4491
-RED_SPLIT_G        0          19
-                   1        2164
-RESIDUAL_CAPACITY  1        2610
+FLOW_COVER         0            1
+                   1         2068
+GMI                0           34
+                   1         3209
+GOMORY             0          138
+                   1         9871
+LIFT_AND_PROJECT   0          117
+                   1        10455
+MIR                0            9
+                   1         8934
+RED_SPLIT          0           20
+                   1         4789
+RED_SPLIT_G        0           19
+                   1         2439
+RESIDUAL_CAPACITY  1         2771
 dtype: int64
 Total by instance_name, cut_type and label
-instance                     cut_type           label
-30n20b8                      GMI                1         40
-                             GOMORY             1          5
-                             MIR                1         48
-                             RED_SPLIT_G        1         10
-                             RESIDUAL_CAPACITY  1          2
-50v-10                       GMI                0          2
-                                                1         77
-                             GOMORY             1         89
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT_G        1         20
-CMS750_4                     GOMORY             1         78
-                             LIFT_AND_PROJECT   1         61
-                             MIR                1         19
-                             RED_SPLIT_G        1        100
-academictimetablesmall       GOMORY             1         95
-                             MIR                1         75
-                             RESIDUAL_CAPACITY  1         70
-app1-2                       GOMORY             1         81
-                             LIFT_AND_PROJECT   1         10
-                             MIR                1          2
-                             RED_SPLIT_G        1         35
-assign1-5-8                  GMI                1         40
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         68
-                             RED_SPLIT          1         52
-atlanta-ip                   FLOW_COVER         1          7
-                             GMI                1         19
-                             GOMORY             1         15
-                             LIFT_AND_PROJECT   1         40
-                             MIR                1         40
-                             RESIDUAL_CAPACITY  1          1
-b1c1s1                       FLOW_COVER         1          1
-                             GMI                1         19
-                             GOMORY             1         48
-                             LIFT_AND_PROJECT   1         97
-                             MIR                1         59
-bab2                         GOMORY             1         69
-                             MIR                1          4
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1         48
-bab6                         GOMORY             1          9
-                             MIR                1          2
-                             RESIDUAL_CAPACITY  1          3
-beasleyC3                    FLOW_COVER         1         92
-                             GOMORY             1         99
-                             LIFT_AND_PROJECT   1         98
-                             MIR                1        100
-binkar10_1                   GOMORY             1         51
-                             LIFT_AND_PROJECT   1         17
-                             MIR                1         58
-                             RED_SPLIT          1         20
-                             RED_SPLIT_G        1         10
-blp-ar98                     FLOW_COVER         1          2
-                             GOMORY             1         40
-                             MIR                1         98
-                             RESIDUAL_CAPACITY  1          5
-bnatt400                     GOMORY             1         92
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1         44
-bppc4-08                     GMI                1          1
-                             GOMORY             1         10
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          1
-                             RED_SPLIT          1         14
-                             RED_SPLIT_G        1          2
-brazil3                      RESIDUAL_CAPACITY  1         19
-buildingenergy               GMI                1        100
-                             GOMORY             1        100
-                             MIR                1        100
-                             RED_SPLIT          1          5
-chromaticindex1024-7         GMI                1        100
-                             GOMORY             1         10
-                             MIR                1         41
-chromaticindex512-7          GOMORY             1         52
-                             LIFT_AND_PROJECT   1         20
-                             MIR                1         21
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1          1
-cmflsp50-24-8-8              GMI                1         40
-                             GOMORY             1          5
-                             RED_SPLIT          1         60
-co-100                       RESIDUAL_CAPACITY  1         70
-cod105                       LIFT_AND_PROJECT   1        100
-comp07-2idx                  GMI                1         30
-                             LIFT_AND_PROJECT   1         29
-                             MIR                1          5
-comp21-2idx                  GOMORY             1         95
-                             MIR                1         91
-cost266-UUE                  GMI                1         40
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          9
-                             RED_SPLIT          1        100
-csched007                    FLOW_COVER         1         66
-                             GOMORY             1         39
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         69
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1          1
-csched008                    FLOW_COVER         1         55
-                             GOMORY             1         41
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         91
-                             RED_SPLIT_G        1         30
-                             RESIDUAL_CAPACITY  1          2
-cvs16r128-89                 GMI                1         40
-                             GOMORY             1         58
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1         76
-dano3_3                      RED_SPLIT          1         61
-dano3_5                      RED_SPLIT          1         81
-decomp2                      GOMORY             1         29
-drayage-100-23               GOMORY             1        100
-                             MIR                1        100
-drayage-25-23                FLOW_COVER         1         10
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1        100
-dws008-01                    FLOW_COVER         1         50
-                             GOMORY             1         89
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1         84
-                             RESIDUAL_CAPACITY  1          1
-eil33-2                      LIFT_AND_PROJECT   1        100
-                             MIR                1          2
-enlight_hard                 GOMORY             1         99
-                             LIFT_AND_PROJECT   1         98
-                             MIR                1         89
-                             RED_SPLIT          1          4
-                             RED_SPLIT_G        1         10
-                             RESIDUAL_CAPACITY  1         65
-ex10                         RED_SPLIT          1         60
-ex9                          RED_SPLIT          0          4
-                                                1         47
-exp-1-500-5-5                GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1        100
-fast0507                     RED_SPLIT          1         87
-fastxgemm-n2r6s0t2           GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          1
-fiball                       GOMORY             1        100
-                             MIR                1        100
-                             RED_SPLIT          1        100
-                             RESIDUAL_CAPACITY  1         98
-gen-ip002                    GMI                1         59
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT_G        1         40
-gen-ip054                    GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         19
-                             RED_SPLIT_G        1        100
-germanrr                     FLOW_COVER         1          1
-                             RED_SPLIT          1         70
-                             RESIDUAL_CAPACITY  1          1
-gfd-schedulen180f7d50m30k18  FLOW_COVER         1         31
-                             GOMORY             1         10
-                             MIR                1         54
-                             RED_SPLIT          1          5
-                             RESIDUAL_CAPACITY  1          6
-glass-sc                     GOMORY             1        100
-                             MIR                1        100
-                             RED_SPLIT          1        100
-glass4                       FLOW_COVER         1         16
-                             GOMORY             0         15
-                                                1         83
-                             LIFT_AND_PROJECT   0         15
-                                                1         99
-                             MIR                1         98
-                             RED_SPLIT_G        1         22
-gmu-35-40                    GMI                1         60
-                             GOMORY             1         98
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         10
-gmu-35-50                    GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          4
-                             RED_SPLIT          1         26
-                             RED_SPLIT_G        1        100
-graph20-20-1rand             GOMORY             1         95
-                             RED_SPLIT_G        0         10
-                                                1         20
-                             RESIDUAL_CAPACITY  1          1
-graphdraw-domain             GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT_G        1         10
-h80x6320d                    FLOW_COVER         1         27
-                             GMI                1         10
-                             GOMORY             1          7
-hypothyroid-k1               LIFT_AND_PROJECT   1         50
-                             MIR                1         45
-                             RED_SPLIT          1         13
-ic97_potential               FLOW_COVER         1         32
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         80
-                             RESIDUAL_CAPACITY  1         82
-icir97_tension               FLOW_COVER         1         13
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT_G        1        100
-                             RESIDUAL_CAPACITY  1         54
-irish-electricity            FLOW_COVER         1         14
-                             GOMORY             1         80
-                             MIR                1         70
-                             RESIDUAL_CAPACITY  1         48
-istanbul-no-cutoff           FLOW_COVER         1         71
-                             GMI                1         78
-                             LIFT_AND_PROJECT   1         73
-                             RESIDUAL_CAPACITY  1         94
-k1mushroom                   LIFT_AND_PROJECT   1         10
-                             MIR                1          2
-                             RED_SPLIT          1          2
-lectsched-5-obj              FLOW_COVER         1         75
-                             GOMORY             0          1
-                                                1         99
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1         29
-leo1                         GMI                1         14
-                             GOMORY             1          1
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         90
-                             RED_SPLIT_G        1         23
-lotsize                      GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-mad                          GOMORY             1         98
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-map10                        GMI                1         90
-                             GOMORY             1         29
-                             MIR                1         27
-                             RED_SPLIT          1         56
-                             RESIDUAL_CAPACITY  1          1
-map16715-04                  LIFT_AND_PROJECT   1         90
-                             MIR                1          6
-                             RED_SPLIT          1         42
-                             RED_SPLIT_G        1         10
-                             RESIDUAL_CAPACITY  1          2
-markshare2                   FLOW_COVER         1         33
-                             GMI                1         20
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         96
-markshare_4_0                FLOW_COVER         1         28
-                             GMI                1         30
-                             GOMORY             1         98
-                             LIFT_AND_PROJECT   1        100
-mas74                        GMI                1         37
-                             GOMORY             1         99
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          4
-                             RED_SPLIT_G        1        100
-mas76                        GOMORY             1        100
-                             LIFT_AND_PROJECT   1         98
-                             MIR                1          4
-                             RED_SPLIT          1          1
-                             RED_SPLIT_G        1         90
-mc11                         FLOW_COVER         1        100
-                             GOMORY             1         85
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-mcsched                      GMI                1         99
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT_G        1         99
-mik-250-20-75-4              GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         95
-                             RED_SPLIT          1         29
-milo-v12-6-r2-40-1           GMI                1         33
-                             GOMORY             1         22
-                             LIFT_AND_PROJECT   1         58
-momentum1                    FLOW_COVER         1          1
-                             GMI                1          5
-                             GOMORY             1         18
-                             LIFT_AND_PROJECT   1         95
-                             MIR                1         87
-                             RED_SPLIT          1         15
-                             RESIDUAL_CAPACITY  1         10
-mushroom-best                LIFT_AND_PROJECT   1         77
-mzzv11                       FLOW_COVER         1         12
-                             GMI                1         10
-                             GOMORY             1         89
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          5
-                             RED_SPLIT          1         10
-                             RED_SPLIT_G        1         10
-mzzv42z                      GOMORY             0         11
-                                                1         70
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         43
-n2seq36q                     GMI                1         14
-                             GOMORY             1         12
-                             MIR                1          1
-                             RED_SPLIT          1         10
-                             RED_SPLIT_G        1         36
-                             RESIDUAL_CAPACITY  1          1
-n5-3                         GOMORY             1         49
-                             LIFT_AND_PROJECT   1         81
-                             MIR                1         59
-                             RED_SPLIT          1         10
-                             RED_SPLIT_G        1         22
-n9-3                         GOMORY             1         46
-                             LIFT_AND_PROJECT   1         65
-                             MIR                1         30
-                             RED_SPLIT          1        100
-                             RED_SPLIT_G        1          1
-neos-1122047                 GOMORY             1          8
-                             LIFT_AND_PROJECT   1          4
-                             MIR                1          4
-neos-1171448                 GOMORY             1        100
-                             MIR                1         98
-neos-1171737                 FLOW_COVER         1         88
-                             GOMORY             1         82
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         50
-neos-1354092                 GOMORY             1         99
-                             RED_SPLIT          1         90
-                             RESIDUAL_CAPACITY  1          1
-neos-1445765                 RED_SPLIT          1        100
-                             RED_SPLIT_G        1         70
-                             RESIDUAL_CAPACITY  1         80
-neos-1456979                 FLOW_COVER         1         40
-                             GOMORY             1        100
-                             MIR                1         98
-                             RED_SPLIT_G        1         10
-neos-1582420                 LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1         72
-                             RED_SPLIT_G        1         12
-                             RESIDUAL_CAPACITY  1          1
-neos-2657525-crna            FLOW_COVER         1         16
-                             GMI                1        100
-                             GOMORY             1         91
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         89
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1         25
-neos-2746589-doon            GOMORY             1        100
-                             MIR                1          3
-neos-3024952-loue            GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1        100
-                             RED_SPLIT_G        1         90
-                             RESIDUAL_CAPACITY  1          1
-neos-3046615-murg            GMI                1         27
-                             GOMORY             1         50
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         24
-                             RED_SPLIT          1         24
-                             RED_SPLIT_G        1         45
-neos-3083819-nubu            GMI                1          4
-                             MIR                1          2
-                             RED_SPLIT          1         22
-                             RED_SPLIT_G        0          9
-                                                1          6
-                             RESIDUAL_CAPACITY  1          3
-neos-3216931-puriri          LIFT_AND_PROJECT   1        100
-                             MIR                1         11
-                             RED_SPLIT          1         50
-                             RESIDUAL_CAPACITY  1          2
-neos-3381206-awhea           FLOW_COVER         1          5
-                             GOMORY             1         84
-                             LIFT_AND_PROJECT   1         51
-                             MIR                1         44
-                             RED_SPLIT_G        1         45
-                             RESIDUAL_CAPACITY  1         89
-neos-3402294-bobin           GMI                1         10
-                             GOMORY             1         20
-                             LIFT_AND_PROJECT   1         10
-                             MIR                1         10
-                             RED_SPLIT_G        1         10
-                             RESIDUAL_CAPACITY  1          6
-neos-3555904-turama          GMI                1         10
-neos-3627168-kasai           FLOW_COVER         1         53
-                             GMI                1         79
-                             GOMORY             1         40
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         10
-neos-3656078-kumeu           FLOW_COVER         1         84
-                             GOMORY             0          2
-                                                1        100
-                             MIR                1         95
-                             RESIDUAL_CAPACITY  1         99
-neos-3754480-nidda           LIFT_AND_PROJECT   1         42
-                             RED_SPLIT          1         94
-neos-4300652-rahue           FLOW_COVER         1         17
-                             GOMORY             1         40
-                             LIFT_AND_PROJECT   1         30
-                             MIR                1         32
-                             RED_SPLIT_G        1         98
-neos-4387871-tavua           FLOW_COVER         1         17
-                             GOMORY             1         90
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         94
-                             RED_SPLIT_G        1         46
-neos-4413714-turia           GMI                1         10
-                             MIR                1         84
-                             RESIDUAL_CAPACITY  1         78
-neos-4532248-waihi           GOMORY             1         66
-                             LIFT_AND_PROJECT   1         10
-                             MIR                1         78
-                             RESIDUAL_CAPACITY  1         84
-neos-4647030-tutaki          GOMORY             1         78
-                             LIFT_AND_PROJECT   1         42
-                             MIR                1         25
-                             RED_SPLIT          1         19
-                             RED_SPLIT_G        1         37
-neos-4722843-widden          GMI                1         10
-                             GOMORY             1        100
-                             MIR                1         76
-                             RESIDUAL_CAPACITY  1         13
-neos-4738912-atrato          FLOW_COVER         1         55
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1        100
-neos-4763324-toguru          RED_SPLIT_G        1         10
-neos-4954672-berkel          GOMORY             1        100
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1        100
-neos-5049753-cuanza          GOMORY             1         10
-neos-5052403-cygnet          RED_SPLIT          1         10
-neos-5075914-elvire          FLOW_COVER         0          1
-                                                1         85
-                             GMI                1         85
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         99
-                             RESIDUAL_CAPACITY  1          1
-neos-5093327-huahum          GMI                1         63
-                             GOMORY             1         11
-                             MIR                1         63
-                             RED_SPLIT          1          6
-neos-5104907-jarama          FLOW_COVER         1          3
-                             MIR                1         10
-neos-5107597-kakapo          GOMORY             1         86
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         58
-                             RED_SPLIT_G        1         10
-neos-5188808-nattai          GMI                1         30
-                             GOMORY             1         31
-                             LIFT_AND_PROJECT   1         87
-                             MIR                1         96
-                             RED_SPLIT          1         27
-                             RED_SPLIT_G        1          2
-neos-5195221-niemur          GMI                1         41
-                             GOMORY             1         95
-                             LIFT_AND_PROJECT   1         35
-                             MIR                1         81
-                             RED_SPLIT_G        1         64
-neos-662469                  GMI                1         15
-                             GOMORY             1         18
-                             MIR                1         10
-                             RED_SPLIT          1         10
-                             RED_SPLIT_G        1         25
-neos-787933                  RESIDUAL_CAPACITY  1         51
-neos-860300                  GMI                1         12
-                             GOMORY             1          7
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         40
-                             RED_SPLIT_G        1         10
-neos-873061                  GOMORY             1         46
-neos-911970                  GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         99
-                             RED_SPLIT          1        100
-neos-950242                  GMI                1         43
-                             GOMORY             1         95
-                             LIFT_AND_PROJECT   1         36
-                             RESIDUAL_CAPACITY  1         14
-neos-957323                  GOMORY             1         41
-                             MIR                1         19
-                             RED_SPLIT          1         30
-neos17                       GOMORY             1          7
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         14
-                             RED_SPLIT_G        1        100
-                             RESIDUAL_CAPACITY  1          6
-neos5                        GMI                1        100
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         65
-neos8                        GOMORY             1          6
-                             MIR                1          7
-                             RED_SPLIT          1          4
-net12                        FLOW_COVER         1          1
-                             GOMORY             1         98
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         96
-                             RESIDUAL_CAPACITY  1         97
-netdiversion                 GMI                1         10
-                             GOMORY             1         20
-                             MIR                1         12
-nexp-150-20-8-5              GMI                1        100
-                             GOMORY             1         52
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1        100
-ns1116954                    GOMORY             1         59
-                             LIFT_AND_PROJECT   1         50
-                             MIR                1         44
-                             RED_SPLIT_G        1         28
-                             RESIDUAL_CAPACITY  1         18
-ns1208400                    GOMORY             1         91
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         95
-                             RESIDUAL_CAPACITY  1          1
-ns1644855                    RED_SPLIT          1         72
-ns1760995                    GMI                1         67
-                             LIFT_AND_PROJECT   1         10
-                             RED_SPLIT          1         85
-                             RED_SPLIT_G        1         20
-ns1830653                    GMI                1         10
-                             GOMORY             1         74
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1         17
-nu25-pr12                    GOMORY             1         97
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          0          1
-                                                1         87
-                             RESIDUAL_CAPACITY  1        100
-nursesched-medium-hint03     GOMORY             1         10
-nursesched-sprint02          GOMORY             1         93
-                             LIFT_AND_PROJECT   0         10
-                                                1         99
-                             MIR                1         31
-                             RED_SPLIT          1         28
-                             RESIDUAL_CAPACITY  1         93
-opm2-z10-s4                  LIFT_AND_PROJECT   1         10
-                             RED_SPLIT          1         60
-p200x1188c                   FLOW_COVER         1          3
-                             LIFT_AND_PROJECT   1         95
-                             MIR                1         98
-                             RED_SPLIT_G        1          5
-                             RESIDUAL_CAPACITY  1          2
-pg                           FLOW_COVER         1         91
-                             GMI                1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1        100
-pg5_34                       FLOW_COVER         1         12
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1        100
-physiciansched3-3            FLOW_COVER         1          2
-                             GOMORY             1         10
-                             MIR                1         10
-                             RESIDUAL_CAPACITY  1          4
-physiciansched6-2            FLOW_COVER         1          5
-                             GOMORY             1         99
-                             MIR                1         72
-                             RED_SPLIT          1         21
-                             RESIDUAL_CAPACITY  1         30
-piperout-08                  FLOW_COVER         1         62
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         10
-                             RED_SPLIT_G        1         37
-                             RESIDUAL_CAPACITY  1         13
-pk1                          GOMORY             1         99
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         89
-                             RED_SPLIT          1         38
-proteindesign121hz512p9      RED_SPLIT          1        100
-                             RED_SPLIT_G        1          1
-proteindesign122trx11p8      RED_SPLIT          1        100
-qap10                        LIFT_AND_PROJECT   1        100
-                             MIR                1         90
-                             RED_SPLIT          1        100
-rail507                      RED_SPLIT          1         72
-ran14x18-disj-8              FLOW_COVER         1         35
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         57
-                             RED_SPLIT          1         47
-                             RED_SPLIT_G        1         30
-                             RESIDUAL_CAPACITY  1          1
-rd-rplusc-21                 FLOW_COVER         1         57
-                             GMI                1          4
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         60
-                             MIR                1         89
-                             RESIDUAL_CAPACITY  1         29
-reblock115                   GOMORY             1         20
-                             RED_SPLIT          1        100
-rmatr100-p10                 GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         97
-                             RED_SPLIT          1        100
-rmatr200-p5                  GMI                1         40
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         70
-                             RED_SPLIT          1        100
-                             RED_SPLIT_G        1         51
-rocI-4-11                    FLOW_COVER         1         43
-                             GOMORY             1         50
-                             LIFT_AND_PROJECT   1         50
-                             MIR                1         49
-                             RESIDUAL_CAPACITY  1         29
-rocII-5-11                   FLOW_COVER         1          7
-                             GMI                1         30
-                             GOMORY             1         50
-                             LIFT_AND_PROJECT   1         60
-                             MIR                1         48
-                             RESIDUAL_CAPACITY  1          5
-rococoB10-011000             FLOW_COVER         1         21
-                             GMI                1         10
-                             GOMORY             1         98
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         90
-                             RED_SPLIT_G        1         10
-                             RESIDUAL_CAPACITY  1          3
-rococoC11-011100             FLOW_COVER         1         12
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         72
-                             RESIDUAL_CAPACITY  1         17
-roi2alpha3n4                 GOMORY             1         35
-                             RESIDUAL_CAPACITY  1         47
-roll3000                     FLOW_COVER         1         59
-                             GOMORY             0          3
-                                                1         96
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RED_SPLIT          1         10
-                             RESIDUAL_CAPACITY  1         64
-s100                         RED_SPLIT          1         40
-s250r10                      MIR                1         11
-                             RED_SPLIT          1         60
-satellites2-40               GOMORY             1         73
-                             MIR                1         22
-                             RED_SPLIT          1         44
-satellites2-60-fs            GMI                1         10
-savsched1                    GOMORY             1         10
-                             MIR                1         10
-sct2                         GMI                1         23
-                             GOMORY             1         11
-                             LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1         50
-                             RED_SPLIT_G        1          3
-seymour1                     GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          4
-                             RED_SPLIT_G        1        100
-sing326                      GOMORY             1         19
-snp-02-004-104               FLOW_COVER         1         26
-                             GMI                1         47
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1         32
-                             RESIDUAL_CAPACITY  1          3
-sp150x300d                   GOMORY             1         50
-                             LIFT_AND_PROJECT   1         99
-                             MIR                1         92
-                             RESIDUAL_CAPACITY  1         61
-sp97ar                       GMI                1          8
-sp98ar                       GMI                1          6
-                             GOMORY             1          6
-                             MIR                1         64
-                             RED_SPLIT_G        1         28
-splice1k1                    LIFT_AND_PROJECT   1         20
-                             MIR                1          7
-                             RED_SPLIT          1          5
-supportcase10                GOMORY             1         10
-                             RED_SPLIT_G        1        100
-supportcase12                GMI                1         90
-                             GOMORY             1        100
-                             MIR                1         97
-                             RESIDUAL_CAPACITY  1        100
-supportcase19                GMI                1         11
-                             GOMORY             1          1
-supportcase26                GMI                1         10
-                             GOMORY             1          4
-                             LIFT_AND_PROJECT   1         94
-                             MIR                1         10
-                             RED_SPLIT          1          3
-supportcase33                GOMORY             1         57
-                             MIR                1         54
-                             RESIDUAL_CAPACITY  1          3
-supportcase40                GOMORY             1        100
-                             LIFT_AND_PROJECT   1         74
-                             MIR                1         39
-                             RED_SPLIT          0          4
-                                                1         99
-                             RED_SPLIT_G        1         58
-supportcase7                 GOMORY             1         27
-                             MIR                1         22
-swath1                       GMI                1          8
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1          9
-                             RED_SPLIT          1         30
-                             RESIDUAL_CAPACITY  1         14
-swath3                       GMI                1          7
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         64
-                             RED_SPLIT          1         45
-                             RED_SPLIT_G        1          3
-                             RESIDUAL_CAPACITY  1          9
-tbfp-network                 MIR                1         74
-                             RED_SPLIT          1         99
-thor50dday                   FLOW_COVER         1          8
-                             MIR                1         98
-timtab1                      FLOW_COVER         1         16
-                             GMI                1         20
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         41
-                             RESIDUAL_CAPACITY  1         52
-tr12-30                      FLOW_COVER         1         35
-                             GMI                0         27
-                             GOMORY             0         92
-                                                1          4
-                             LIFT_AND_PROJECT   0         92
-                                                1         26
-                             MIR                1         98
-                             RED_SPLIT          0          9
-                                                1         27
-traininstance2               FLOW_COVER         1         10
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         60
-                             MIR                1         97
-                             RED_SPLIT          1         51
-traininstance6               GMI                1         70
-                             GOMORY             1        100
-                             LIFT_AND_PROJECT   1         96
-                             MIR                1         69
-                             RESIDUAL_CAPACITY  1         78
-trento1                      LIFT_AND_PROJECT   1        100
-                             MIR                1         79
-                             RED_SPLIT          1        100
-triptim1                     RED_SPLIT          1         11
-uccase12                     FLOW_COVER         1          6
-                             GOMORY             1         36
-                             MIR                1         17
-                             RED_SPLIT          1          3
-uccase9                      FLOW_COVER         1         40
-                             GMI                1         42
-                             GOMORY             1         17
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1        100
-                             RESIDUAL_CAPACITY  1          1
-uct-subprob                  GOMORY             1         93
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         94
-                             RED_SPLIT          1         50
-                             RESIDUAL_CAPACITY  1          6
-unitcal_7                    FLOW_COVER         1          8
-                             GOMORY             1         20
-                             LIFT_AND_PROJECT   1         10
-                             MIR                1          9
-var-smallemery-m6j6          LIFT_AND_PROJECT   1        100
-                             RED_SPLIT          1         80
-wachplan                     GOMORY             1          3
-                             LIFT_AND_PROJECT   1        100
-                             MIR                1         50
-                             RED_SPLIT          1         50
+instance             cut_type          label
+50v-10               GMI               0         2
+ex9                  RED_SPLIT         0         4
+glass4               GMI               0         5
+                     GOMORY            0        27
+                     LIFT_AND_PROJECT  0        15
+graph20-20-1rand     RED_SPLIT_G       0        10
+ic97_potential       GOMORY            0         1
+lectsched-5-obj      GOMORY            0         1
+mzzv42z              GOMORY            0        11
+neos-3083819-nubu    RED_SPLIT         0         2
+                     RED_SPLIT_G       0         9
+neos-3656078-kumeu   GOMORY            0         2
+neos-5075914-elvire  FLOW_COVER        0         1
+nexp-150-20-8-5      MIR               0         9
+nu25-pr12            RED_SPLIT         0         1
+nursesched-sprint02  LIFT_AND_PROJECT  0        10
+rococoB10-011000     GOMORY            0         1
+roll3000             GOMORY            0         3
+supportcase40        RED_SPLIT         0         4
+tr12-30              GMI               0        27
+                     GOMORY            0        92
+                     LIFT_AND_PROJECT  0        92
+                     RED_SPLIT         0         9
+dtype: int64
+Total by instance_name and label
+instance             label
+50v-10               0          2
+ex9                  0          4
+glass4               0         47
+graph20-20-1rand     0         10
+ic97_potential       0          1
+lectsched-5-obj      0          1
+mzzv42z              0         11
+neos-3083819-nubu    0         11
+neos-3656078-kumeu   0          2
+neos-5075914-elvire  0          1
+nexp-150-20-8-5      0          9
+nu25-pr12            0          1
+nursesched-sprint02  0         10
+rococoB10-011000     0          1
+roll3000             0          3
+supportcase40        0          4
+tr12-30              0        220
 dtype: int64
 Total by iteration, cut_type and label
-relax_iteration  cut_type           label
-0                FLOW_COVER         1         274
-                 GMI                0           9
-                                    1         375
-                 GOMORY             0          10
-                                    1        1242
-                 LIFT_AND_PROJECT   0           8
-                                    1        1159
-                 MIR                1        1060
-                 RED_SPLIT          0           4
-                                    1         406
-                 RED_SPLIT_G        0          19
-                                    1         274
-                 RESIDUAL_CAPACITY  1         361
-1                FLOW_COVER         1         248
-                 GMI                0           9
-                                    1         290
-                 GOMORY             0          10
-                                    1        1124
-                 LIFT_AND_PROJECT   0           9
-                                    1        1081
-                 MIR                1        1005
-                 RED_SPLIT          1         454
-                 RED_SPLIT_G        1         206
-                 RESIDUAL_CAPACITY  1         294
-2                FLOW_COVER         0           1
-                                    1         193
-                 GMI                1         329
-                 GOMORY             0          19
-                                    1        1071
-                 LIFT_AND_PROJECT   0           9
-                                    1        1059
-                 MIR                1         919
-                 RED_SPLIT          1         451
-                 RED_SPLIT_G        1         231
-                 RESIDUAL_CAPACITY  1         283
-3                FLOW_COVER         1         177
-                 GMI                1         272
-                 GOMORY             0           9
-                                    1        1018
-                 LIFT_AND_PROJECT   0          10
-                                    1        1035
-                 MIR                1         925
-                 RED_SPLIT          0           1
-                                    1         480
-                 RED_SPLIT_G        1         225
-                 RESIDUAL_CAPACITY  1         267
-4                FLOW_COVER         1         191
-                 GMI                0           2
-                                    1         252
-                 GOMORY             0          11
-                                    1         973
-                 LIFT_AND_PROJECT   0          11
-                                    1        1006
-                 MIR                1         869
-                 RED_SPLIT          1         458
-                 RED_SPLIT_G        1         207
-                 RESIDUAL_CAPACITY  1         258
-5                FLOW_COVER         1         153
-                 GMI                1         235
-                 GOMORY             0          23
-                                    1         890
-                 LIFT_AND_PROJECT   0          18
-                                    1         946
-                 MIR                1         797
-                 RED_SPLIT          1         462
-                 RED_SPLIT_G        1         223
-                 RESIDUAL_CAPACITY  1         258
-6                FLOW_COVER         1         137
-                 GMI                1         253
-                 GOMORY             0          14
-                                    1         877
-                 LIFT_AND_PROJECT   0          13
-                                    1         944
-                 MIR                1         758
-                 RED_SPLIT          1         472
-                 RED_SPLIT_G        1         188
-                 RESIDUAL_CAPACITY  1         239
-7                FLOW_COVER         1         125
-                 GMI                1         247
-                 GOMORY             0           9
-                                    1         826
-                 LIFT_AND_PROJECT   0          11
-                                    1         916
-                 MIR                1         751
-                 RED_SPLIT          0           2
-                                    1         453
-                 RED_SPLIT_G        1         228
-                 RESIDUAL_CAPACITY  1         229
-8                FLOW_COVER         1         133
-                 GMI                1         217
-                 GOMORY             0           9
-                                    1         788
-                 LIFT_AND_PROJECT   0          10
-                                    1         899
-                 MIR                1         711
-                 RED_SPLIT          0           2
-                                    1         423
-                 RED_SPLIT_G        1         215
-                 RESIDUAL_CAPACITY  1         214
-9                FLOW_COVER         1         128
-                 GMI                0           9
-                                    1         197
-                 GOMORY             0          10
-                                    1         770
-                 LIFT_AND_PROJECT   0          18
-                                    1         883
-                 MIR                1         705
-                 RED_SPLIT          0           9
-                                    1         432
-                 RED_SPLIT_G        1         167
-                 RESIDUAL_CAPACITY  1         207
+relax_iteration  cut_type          label
+0                GMI               0         9
+                 GOMORY            0        10
+                 LIFT_AND_PROJECT  0         8
+                 RED_SPLIT         0         6
+                 RED_SPLIT_G       0        19
+1                GMI               0         9
+                 GOMORY            0        10
+                 LIFT_AND_PROJECT  0         9
+2                FLOW_COVER        0         1
+                 GOMORY            0        19
+                 LIFT_AND_PROJECT  0         9
+3                GOMORY            0         9
+                 LIFT_AND_PROJECT  0        10
+                 RED_SPLIT         0         1
+4                GMI               0         2
+                 GOMORY            0        11
+                 LIFT_AND_PROJECT  0        11
+5                GOMORY            0        24
+                 LIFT_AND_PROJECT  0        18
+6                GOMORY            0        15
+                 LIFT_AND_PROJECT  0        13
+                 MIR               0         1
+7                GMI               0         2
+                 GOMORY            0        15
+                 LIFT_AND_PROJECT  0        11
+                 RED_SPLIT         0         2
+8                GMI               0         3
+                 GOMORY            0        15
+                 LIFT_AND_PROJECT  0        10
+                 MIR               0         4
+                 RED_SPLIT         0         2
+9                GMI               0         9
+                 GOMORY            0        10
+                 LIFT_AND_PROJECT  0        18
+                 MIR               0         4
+                 RED_SPLIT         0         9
+dtype: int64
+Total by iteration and label
+relax_iteration  label
+0                0        52
+1                0        28
+2                0        29
+3                0        20
+4                0        24
+5                0        42
+6                0        29
+7                0        30
+8                0        34
+9                0        50
 dtype: int64
 exported to csv
