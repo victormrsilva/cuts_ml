@@ -46,7 +46,6 @@ class Instance:
                         sol[lc[0]] = float(lc[1])
                         i = i + 1
                     self.solutions.append(sol)
-
     # def __del__(self):
     #     print('destructor')
     #     os.remove('{}.mps'.format(self.name))

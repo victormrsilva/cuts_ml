@@ -15,18 +15,25 @@ noncombinatorial_cuts = [CutType.GOMORY, CutType.LIFT_AND_PROJECT, CutType.MIR, 
                          CutType.GMI, CutType.LATWO_MIR, CutType.RED_SPLIT, CutType.ZERO_HALF,
                          CutType.RED_SPLIT_G, CutType.RESIDUAL_CAPACITY, CutType.TWO_MIR]
 
-random.shuffle(combinatorial_cuts)
-random.shuffle(noncombinatorial_cuts)
-size_comb_cuts = random.randint(0, len(combinatorial_cuts))
-size_noncomb_cuts = random.randint(1, len(noncombinatorial_cuts))
-print(combinatorial_cuts, noncombinatorial_cuts)
-print(size_comb_cuts, size_noncomb_cuts)
-try:
-    if size_comb_cuts > 0:
-        doitReturnValue = func_timeout(10800, extractor.test, [combinatorial_cuts[0:size_comb_cuts], noncombinatorial_cuts[0:size_noncomb_cuts]])
-    else:
-        doitReturnValue = func_timeout(10800, extractor.test, [[], noncombinatorial_cuts[0:size_noncomb_cuts]])
-except FunctionTimedOut:
-    extractor.writeEnd()
-    print('timeout')
-print('-----------------------------------------')
+iteration = 0
+erros = 0
+
+while iteration < 5 and erros < 6000:
+    iteration = iteration + 1
+    random.shuffle(combinatorial_cuts)
+    random.shuffle(noncombinatorial_cuts)
+    size_comb_cuts = random.randint(0, len(combinatorial_cuts))
+    size_noncomb_cuts = random.randint(1, len(noncombinatorial_cuts))
+    print(combinatorial_cuts, noncombinatorial_cuts)
+    print(size_comb_cuts, size_noncomb_cuts)
+    try:
+        if size_comb_cuts > 0:
+            doitReturnValue = func_timeout(14400, extractor.test, [combinatorial_cuts[0:size_comb_cuts], noncombinatorial_cuts[0:size_noncomb_cuts]])
+            erros = erros + doitReturnValue
+        else:
+            doitReturnValue = func_timeout(14400, extractor.test, [[], noncombinatorial_cuts[0:size_noncomb_cuts]])
+            erros = erros + doitReturnValue
+    except FunctionTimedOut:
+        extractor.writeEnd()
+        print('timeout')
+    print('-----------------------------------------')
