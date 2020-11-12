@@ -1,4 +1,5 @@
 from instance import Instance
+from func_timeout import func_timeout, FunctionTimedOut
 from mip.callbacks import CutPool
 from mip.model import compute_features, features
 from mip.entities import Constr, LinExpr
@@ -173,7 +174,12 @@ class ExtractFeatures:
         return feat
 
     def test(self, combinatory: [CutType], noncombinatory: [CutType]):
-
+        if os.path.exists('{}_dataset.log'.format(self.instance.name)):
+            append_write = 'a'  # append if already exists
+        else:
+            append_write = 'w'  # make a new file if not
+        self.log = open('{}_dataset.log'.format(self.instance.name), append_write)
+        
         self.log.write('Combinatory set: {}\n'.format(combinatory))
         self.log.write('Non-Combinatory set: {}\n'.format(noncombinatory))
 
@@ -181,12 +187,16 @@ class ExtractFeatures:
         iteration = 0
         qtd_cuts = 1
         # temporizar as rodadas para ver se é necessário a limitação de cortes inseridos
-        while qtd_cuts > 0 and iteration < 10:
+        while qtd_cuts > 0 and iteration < 2:
             self.log.write('iteration {}\n'.format(iteration))
             print('iteration {}'.format(iteration))
             qtd_cuts = 0
             start = time.time()
-            self.instance.model.optimize(relax=True)
+            try:
+                func_timeout(3600, self.instance.model.optimize, kwargs={'relax': True, 'max_seconds': 1800})
+            except FunctionTimedOut:
+                print('relaxation timeout')
+                return self.test_false
             end = time.time()
             print('relaxation time {} seconds'.format(round(end-start, 4)))
             self.log.write('relaxation time {} seconds\n'.format(round(end-start, 4)))
@@ -292,16 +302,21 @@ class ExtractFeatures:
                             distances = pairwise_distances(test, s_test.to_frame().T, metric='manhattan')
                             search = (distances < 1e-4)
                             proximos = np.where(search == True)[0]
+                            # input()
                             if len(proximos) > 0:  # if is similar to one already in the pool
                                 continue
-                            while len(csv_file) >= 10:
+                            if s['label'] == 1:
+                                size = 30
+                            else:
+                                size = 10
+                            while len(csv_file) >= size:
                                 # print(t)
                                 # print(csv_file)
                                 result = np.where(distances == np.amin(distances))
                                 csv_file = csv_file.drop(index=result[0][0])
-                                # input(csv_file)
-                            if s.values.tolist() not in csv_file.values.tolist():
-                                csv_file = csv_file.append(s, ignore_index=True)
+                                print(s['label'], size)
+                            csv_file = csv_file.append(s, ignore_index=True)
+                            test = csv_file.drop(['cut', 'x_values'], axis=1).copy()
                         csv_file.to_csv(filename, sep=';', index=False)
 
         print('test_ok', self.test_ok)
@@ -377,18 +392,18 @@ class ExtractFeatures:
         feat['rhs'] = (-1) * c.const
         feat['abs_rhs'] = abs(c.const)
 
-        if c.sense == '<':  # then rhs > lhs so ratio = lhs/rhs
-            feat['diff'] = feat['rhs'] - feat['lhs']
-            if round(c.const, 12) == 0:
-                feat['abs_ratio_lhs_rhs'] = abs(feat['lhs'] / 1e-12)
-            else:
-                feat['abs_ratio_lhs_rhs'] = abs(feat['lhs'] / c.const)
-        else: # then lhs >= rhs so ratio = rhs/lhs
+        if c.sense == '<':  # then right now lsh > rhs so ratio = rhs/lhs
             feat['diff'] = feat['lhs'] - feat['rhs']
             if round(feat['lhs'], 12) == 0:
                 feat['abs_ratio_lhs_rhs'] = abs(c.const / 1e-12)
             else:
                 feat['abs_ratio_lhs_rhs'] = abs(c.const / feat['lhs'])
+        else: # then right now lhs < rhs so ratio = lhs/rhs
+            feat['diff'] = feat['rhs'] - feat['lhs']
+            if round(c.const, 12) == 0:
+                feat['abs_ratio_lhs_rhs'] = abs(feat['lhs'] / 1e-12)
+            else:
+                feat['abs_ratio_lhs_rhs'] = abs(feat['lhs'] / c.const )
 
         new_feat = self.features_gerard(c)
         feat['away'] = new_feat['away']

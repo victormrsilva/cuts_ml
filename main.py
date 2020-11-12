@@ -24,8 +24,8 @@ while iteration < 5 and erros < 6000:
     random.shuffle(noncombinatorial_cuts)
     size_comb_cuts = random.randint(0, len(combinatorial_cuts))
     size_noncomb_cuts = random.randint(1, len(noncombinatorial_cuts))
-    print(combinatorial_cuts, noncombinatorial_cuts)
-    print(size_comb_cuts, size_noncomb_cuts)
+    # print(combinatorial_cuts, noncombinatorial_cuts)
+    # print(size_comb_cuts, size_noncomb_cuts)
     try:
         if size_comb_cuts > 0:
             doitReturnValue = func_timeout(14400, extractor.test, [combinatorial_cuts[0:size_comb_cuts], noncombinatorial_cuts[0:size_noncomb_cuts]])
