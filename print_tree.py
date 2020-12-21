@@ -15,7 +15,9 @@ from skopt.space import Real, Categorical, Integer
 # le = preprocessing.LabelEncoder()
 
 csv = pd.read_csv('results_cbc_nocuts.csv', delimiter=';')
-
+pd.set_option('display.max_rows', 50000)
+pd.set_option('display.max_columns', 50000)
+pd.set_option('display.width', 50000)
 # input(feature_names)
 import os
 os.environ["PATH"] += os.pathsep + 'D:/Graphviz/bin/'
@@ -69,13 +71,12 @@ for i in range(len(dropcolumns)):
 
         x_leaves = dt.apply(X_test)
         unique, counts = np.unique(x_leaves, return_counts=True)
-        # print(dict(zip(unique, counts)))
+
         positions = {x: list() for x in unique}
         positions_index = {x: list() for x in unique}
         for ind in range(len(x_leaves)):
-            if predicted[ind] == 1:
-                positions[x_leaves[ind]].append(test_index[ind])
-                positions_index[x_leaves[ind]].append(ind)
+            positions[x_leaves[ind]].append(test_index[ind])
+            positions_index[x_leaves[ind]].append(ind)
         threshold = dt.tree_.threshold
         feature = dt.tree_.feature
 
@@ -83,8 +84,10 @@ for i in range(len(dropcolumns)):
 
         for index, a in positions.items():
             if len(a) > 4:
-                print('leaf ', index)
-                print(teste[['instance','label']].loc[a])
+                print('leaf ', index, 'total', len(a))
+                print('predicted:')
+                print(np.asarray((np.unique(predicted[positions_index[index]], return_counts=True))).T)
+                print(teste[['instance','label']].loc[a].groupby(['instance', 'label']).size())
                 # input()
 
         # print(node_indicator.indptr[17650])
@@ -112,35 +115,35 @@ for i in range(len(dropcolumns)):
         #                      threshold[node_id]))
         #         input()
 
-        if np.sum(abs(y_test - predicted)) > 5:
-            print("Feature ranking:")
-            feature_importances = dt.feature_importances_
-            indices = np.argsort(feature_importances)[::-1]
-            for f in range(X_test.shape[1]):
-                if feature_importances[indices[f]] > 0.000001:
-                    print("%d. feature %d (%s) = %f" % (f + 1, indices[f], feature_names[indices[f]], feature_importances[indices[f]]))
-            print('-----------')
-            # for f in range(X.shape[1]):
-            #     print("feature %d (%s) = %f" % (f, feature_names[f], feature_importances[f]))
-            # input('verificar')
-            # Plot the impurity-based feature importances of the forest
-
-            fig = plt.figure(figsize=(25,20))
-            _ = plot_tree(dt,
-                               feature_names=feature_names,
-                               class_names=class_names,
-                               filled=True)
-            # fig.savefig("dt-columns-{}-tree-{}.png".format(i, tree))
-
-            dot_data = export_graphviz(dt, out_file=None,
-                                            feature_names=feature_names,
-                                            class_names=class_names,
-                                            filled=True,
-                                            label='all',
-                                            proportion=False,
-                                            precision=8)
-
-            # Draw graph
-            graph = graphviz.Source(dot_data, format="png")
-            graph.render("dt-columns-{}-tree-{}".format(i, tree))
-            plt.close(fig)
+        # if np.sum(abs(y_test - predicted)) > 5:
+        #     print("Feature ranking:")
+        #     feature_importances = dt.feature_importances_
+        #     indices = np.argsort(feature_importances)[::-1]
+        #     for f in range(X_test.shape[1]):
+        #         if feature_importances[indices[f]] > 0.000001:
+        #             print("%d. feature %d (%s) = %f" % (f + 1, indices[f], feature_names[indices[f]], feature_importances[indices[f]]))
+        #     print('-----------')
+        #     # for f in range(X.shape[1]):
+        #     #     print("feature %d (%s) = %f" % (f, feature_names[f], feature_importances[f]))
+        #     # input('verificar')
+        #     # Plot the impurity-based feature importances of the forest
+        #
+        #     fig = plt.figure(figsize=(25,20))
+        #     _ = plot_tree(dt,
+        #                        feature_names=feature_names,
+        #                        class_names=class_names,
+        #                        filled=True)
+        #     # fig.savefig("dt-columns-{}-tree-{}.png".format(i, tree))
+        #
+        #     dot_data = export_graphviz(dt, out_file=None,
+        #                                     feature_names=feature_names,
+        #                                     class_names=class_names,
+        #                                     filled=True,
+        #                                     label='all',
+        #                                     proportion=False,
+        #                                     precision=8)
+        #
+        #     # Draw graph
+        #     graph = graphviz.Source(dot_data, format="png")
+        #     graph.render("dt-columns-{}-tree-{}".format(i, tree))
+        #     plt.close(fig)
